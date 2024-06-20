@@ -1,0 +1,30 @@
+{
+  "search_placeholder": "Введите название",
+  "search_list_error": "Результаты отсутствуют, попробуйте другой запрос",
+
+  "type_title": "Тип жилья",
+  "type_options": {
+    "Apartment": "Апартаменты",
+    "Townhouse": "Таунхаус",
+    "Villa": "Вилла",
+    "Duplex": "Дуплекс",
+    "Flat": "Квартира",
+    "Penthouse": "Пентхаус",
+    "Ground floor": "Первый этаж"
+  },
+
+  "beds_title": "К-во комнат",
+  "beds_room": "Студия",
+
+  "price_title": "Стоимость",
+
+  "size_title": "Размер",
+
+  "area_title": "Район",
+
+  "clean": "Очистить",
+
+  "mob_title": "Фильтр",
+  "mob_clear": "Очистить фильтр",
+  "mob_submit": "Применить фильтр"
+}

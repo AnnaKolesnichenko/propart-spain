@@ -1,0 +1,28 @@
+@import './../../../../styles/mixins';
+
+.area__recomendation {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .card__wrapper {
+        display: flex;
+        gap: 10px;
+
+        @include lg {
+            display: none;
+        }
+    }
+
+    .card__slider {
+        display: none;
+
+        @include lg {
+            display: block;
+        }
+    }
+
+
+}

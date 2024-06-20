@@ -1,0 +1,78 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+
+.consulting-swiper {
+  height: 1100px;
+  @include laptop {
+    height: 850px;
+  }
+  @include tablet {
+    height: auto;
+  }
+  .slide {
+    //width: 100%;
+    @include tablet {
+      width: 307px;
+      // height: 217px;
+    }
+    .link {
+      width: 100%;
+      height: 335px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      // justify-content: space-between;
+      margin-bottom: 32px;
+      @include laptop {
+        height: 264px;
+        margin-bottom: 0;
+      }
+      @include tablet {
+        height: 217px;
+      }
+      .image {
+        position: relative;
+        width: 100%;
+        height: 280px;
+        border-radius: 12px;
+        overflow: hidden;
+        img {
+          object-fit: cover;
+          object-position: center;
+        }
+        @include laptop {
+          height: 210px;
+        }
+        @include tablet {
+          height: 163px;
+        }
+        .bg {
+          z-index: 5;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(194deg, #0000 45.95%, #000000bf 89.83%),
+            linear-gradient(179deg, #0003 0.74%, #0000 20.01%);
+        }
+      }
+      .text {
+        font-weight: 500;
+        color: #353535;
+        .title {
+          font-size: 18px;
+        }
+        .bottom {
+          margin-top: 5px;
+          display: flex;
+          justify-content: space-between;
+        }
+        span {
+          font-size: 15px;
+          color: #353535;
+        }
+      }
+    }
+  }
+}

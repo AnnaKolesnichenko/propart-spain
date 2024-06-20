@@ -1,0 +1,77 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+.filter-block-map {
+  background-color: $color-white;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 42px;
+  margin: 11px auto;
+  max-width: 100%;
+  
+  @include tablet {
+    justify-content: space-between;
+  }
+  @include mobile {
+    display: none;
+  }
+  .search {
+    height: 42px;
+    width: 100%;
+    // flex: 1;
+    position: relative;
+  }
+  .dropdown {
+    width: 140px;
+    height: 42px;
+    @include tablet {
+      width: 110px;
+    }
+    @media screen and (max-width: 900px) {
+     width: max-content;
+    }
+    @include mobile {
+      width: 100%;
+    }
+    > div {
+      height: 100%;
+      width: 140px;
+      @include tablet {
+        width: 110px;
+      }
+      @media screen and (max-width: 900px) {
+        width: max-content;
+       }
+      @include mobile {
+        width: 100%;
+      }
+    }
+
+    //кнопка dropdown
+    .rs-btn {
+      padding: 7px !important;
+    }
+    //кнопка dropdown2
+    .rs-dropdown-toggle {
+      color: #222;
+      padding: 7px !important;
+      justify-content: space-between;
+    }
+  }
+  .clear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: 1px solid #ff5959;
+    border-radius: 11px;
+    height: 42px;
+    color: #ff5959;
+    background: rgba(255, 89, 89, 0.2);
+    font-size: 14px;
+    padding: 7px 16px 7px 12px;
+    @media screen and (max-width: 900px) {
+      padding: 7px;
+     }
+  }
+}

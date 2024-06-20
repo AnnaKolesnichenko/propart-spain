@@ -1,0 +1,141 @@
+@import './../../../styles/mixins';
+
+.projects__offers-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(auto, 588px));
+    gap: 16px;
+
+    @include rwd_max(1240px) {
+        grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 10px;
+
+    }
+
+    @include rwd_max(900px) {
+        grid-template-columns: repeat(2, minmax(auto, 1fr));
+
+    }
+
+    @include md {
+        grid-template-columns: 1fr;
+    }
+
+
+}
+
+
+.projects__btn-group {
+
+    @include md {
+        display: none;
+    }
+
+    margin-top: 25px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    height: 40px;
+
+    .map__btn {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        height: 45px;
+        width: 107px;
+        align-items: center;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, .4);
+        background: #dba77b;
+        box-shadow: 0 0 40px #0000001a;
+        color: #fff;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transition: .4s ease-in-out;
+        position: relative;
+        overflow: hidden;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        &:hover .circle-mask {
+            display: block;
+        }
+
+
+        .circle-mask {
+            display: none;
+            position: absolute;
+            left: 15px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+        .circle-mask::before,
+        .circle-mask::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            box-shadow: 0 0 0 0 rgb(255, 255, 255);
+            transform: translate(-50%, -50%);
+            animation: pulse 1s infinite;
+
+        }
+
+        .circle-mask::before {
+            animation-delay: 0.1s;
+        }
+
+        .circle-mask::after {
+            animation-delay: 1s;
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2);
+            }
+
+            100% {
+                box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+            }
+        }
+
+
+
+    }
+
+    .show__btn {
+        display: flex;
+        height: 45px;
+        width: 178px;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border: 1px solid rgba(255, 255, 255, .4);
+        cursor: pointer;
+        transition: .3s;
+        box-shadow: 0 0 40px #0000001a;
+        -webkit-backdrop-filter: blur(1.7999999523px);
+        backdrop-filter: blur(1.7999999523px);
+        border-radius: 8px;
+        background: #fff;
+
+        &:hover {
+            box-shadow: none;
+            color: #DBA77B;
+
+
+        }
+    }
+}

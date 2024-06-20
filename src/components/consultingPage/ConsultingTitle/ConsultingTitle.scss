@@ -1,0 +1,54 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+
+.consulting-title {
+  .titleH1 {
+    font-size: 42px;
+    margin-bottom: 16px;
+    width: 56%;
+    font-weight: 500;
+    @include mobile {
+      width: 100%;
+      font-size: 22px;
+    }
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #313131;
+    gap: 16px;
+    @include mobile {
+      flex-direction: column;
+    }
+    .buttons {
+      display: flex;
+      gap: 16px;
+      @include mobile {
+        padding-left: 16px;
+      }
+      .share {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
+        & > .copy-alert {
+          z-index: 5;
+          width: 150px;
+          position: absolute;
+          bottom: 30px;
+          left: -20px;
+          padding: 10px;
+          border: 1px solid rgba(255, 255, 255, 0.19);
+          border-radius: 8px;
+          background: inherit;
+          background: rgba(255, 255, 255, 0.26);
+          backdrop-filter: blur(22px);
+          color: $color-brown;
+        }
+      }
+    }
+  }
+}

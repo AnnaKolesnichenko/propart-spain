@@ -1,0 +1,274 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+
+.header {
+  padding-top: 16px;
+  padding-bottom: 17px;
+  background-color: $color-white;
+  border-bottom: 1px solid $color-border;
+}
+
+.header-home {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 21px;
+  z-index: 30;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  &.map-padding{
+    padding: 0 24px;
+  }
+}
+
+.header-nav {
+  position: absolute;
+  top: 33px;
+  left: 50%;
+  translate: -50%;
+
+  @include laptop {
+    translate: -60%;
+  }
+}
+
+.header-links__home {
+  display: flex;
+  align-items: center;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+
+  @include tablet {
+    flex-direction: row;
+  }
+}
+
+.header-links__logo-home {
+  width: 114px;
+  height: 32px;
+  color: $color-white;
+  transition: $transition;
+
+  &:hover {
+    color: $color-brown;
+  }
+}
+
+.header-links__logo {
+  position: relative;
+  width: 120px;
+  height: 32px;
+  color: $color-brown;
+  transition: $transition;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: $color-brown;
+    transform: scaleX(0);
+    transition: transform 0.4s ease-in-out;
+    transform-origin: left;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+  }
+
+  @include laptop {
+    width: 96px;
+    height: 27px;
+  }
+}
+
+.header-btns__home {
+  display: flex;
+  gap: 10px;
+}
+
+.header-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  @include tablet {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  @include mobile {
+    gap: 3px;
+  }
+}
+
+.header-btns__Nothome-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-btns__link-home {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: $color-white;
+  transition: $transition;
+
+  &:hover {
+    color: $color-brown;
+  }
+}
+
+.header-btns__link-Nothome {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: $color-link;
+  transition: $transition;
+
+  &:hover {
+    color: $color-brown;
+  }
+
+  @include tablet {
+    gap: 8px;
+  }
+}
+
+.header-btns__btn {
+  display: block;
+  border-radius: 8px;
+  border: 1px solid $color-brown;
+  background: $color-brown;
+  box-shadow: 0px 4px 25px 0px rgba(215, 173, 138, 0.3);
+  padding: 6px 32px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: $color-white;
+  cursor: pointer;
+  transition: $transition;
+
+  &:hover {
+    color: $color-brown;
+    background-color: $color-white;
+  }
+
+  @include tablet {
+    display: none;
+  }
+}
+
+.header-btns__saved {
+  position: relative;
+
+  & svg {
+    padding-top: 2px;
+  }
+}
+
+.header-btns__saved-span {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.1;
+  color: $color-white;
+}
+
+.header-btns__burger-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+
+  & svg {
+    width: 24px;
+    height: 24px;
+    fill: $color-white;
+    transition: $transition;
+
+    &:hover {
+      fill: $color-brown;
+    }
+  }
+}
+
+.header-btns__burger-notHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+
+  & svg {
+    width: 24px;
+    height: 24px;
+    fill: $color-black;
+    transition: $transition;
+
+    &:hover {
+      fill: $color-brown;
+    }
+  }
+}
+
+.header-btns__filter {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+  color: $color-link;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-color: $color-white;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  box-shadow: 0px 4px 27px 0px rgba(0, 0, 0, 0.04);
+  padding: 9px;
+  transition: $transition;
+
+  &:hover {
+    background-color: $color-brown;
+    border: 1px solid $color-white;
+  }
+}

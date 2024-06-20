@@ -1,0 +1,80 @@
+{
+  "card": {
+    "link-home": "Hjem",
+    "link-properties": "Ejendomme",
+    "link-card": "Oasis",
+
+    "about": {
+      "from-price": "Fra",
+      "meter": "for",
+      "about-location": "Calle Cam, del Reloj",
+      "total-floors": "Samlede etager",
+      "type": "Type",
+      "apartment": "Lejlighed",
+      "flat": "Lejlighed",
+      "floor": "Etage",
+      "size": "Størrelse",
+      "rooms": "Værelser",
+      "contact-btn": "Kontakt os"
+    },
+
+    "description": {
+      "about-title": "Om projektet",
+      "description": [
+        "Oasis 325 - Fase 2 bygger videre på succesen med det oprindelige Oasis 325-projekt og tilbyder lejligheder i Estepona. Ligefremt som sin forgænger nyder Oasis 325 - Fase 2 godt af sin optimale beliggenhed mellem Marbella og Estepona. Inden for kun 10 minutter kan du få adgang til top golfbaner, den eksotiske Selwo Park, talrige strandklubber, restauranter, butikker og andre faciliteter.",
+        "Denne fase inkluderer 88 eksklusive lejligheder i Estepona, omhyggeligt designet til at maksimere sollys og forbedre den middelhavske livsstil. Udviklingen tilbyder en blanding af 2 og 3 værelses enheder, herunder stueetage lejligheder med haver og penthouses med solarier. Hver lejlighed leveres med en garage og et opbevaringsrum.",
+        "Indretningen er unikt designet til at skabe rummelige opholdsområder, der fusionerer indendørs og udendørs rum og optimerer dagslys. De åbne køkkener og opholdsområder åbner ud til store terrasser med fantastisk udsigt over det omkringliggende naturlandskab.",
+        "Lejlighederne er bygget med materialer af høj kvalitet og har en karakteristisk arkitektonisk stil for at sikre en enestående booplevelse. Alle enheder nyder godt af en gunstig sydvendt orientering."
+      ],
+      "show": "Vis mere",
+      "hide": "Skjul",
+      "amenities": "Faciliteter",
+      "amenity": [
+        "Fitnesscenter",
+        "Bank",
+        "Concierge",
+        "Elevator",
+        "Grønne områder",
+        "Aircondition",
+        "Privat pool",
+        "Opbevaringsrum",
+        "Havudsigt",
+        "Privat parkering",
+        "Privat indgang",
+        "Indbyggede skabe",
+        "Garage"
+      ]
+    },
+    "related": {
+      "bedrooms": "Soveværelser",
+      "bedrooms-from": "fra",
+      "photo": "Foto",
+      "euro": "Euro",
+      "bed": "Seng",
+      "bathrooms": "Badeværelser",
+      "size": "Størrelse",
+      "floors": "Etager",
+      "type-floors": "Type af etager",
+      "dwellings": "boliger"
+    },
+
+    "legal": {
+      "golden-visa": "Guldvisum",
+      "legal-services": "Juridiske tjenester",
+      "insurance": "Forsikring",
+      "repairs-and-furnish": "Reparationer og indretning",
+      "nota-simple": "Nota Simple",
+      "tourist-license": "Turistlicens",
+      "concierge-service": "Concierge-tjenester",
+      "mortgage": "Boliglån",
+      "student-visa": "Studievisum",
+      "digital-nomand": "Digital Nomand",
+      "learn-more": "Læs mere"
+    },
+
+    "other": {
+      "other-projects": "Andre projekter",
+      "map": "Kort"
+    }
+  }
+}

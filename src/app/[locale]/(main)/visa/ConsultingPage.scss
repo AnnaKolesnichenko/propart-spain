@@ -1,0 +1,157 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+
+.consulting-page {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 128px;
+  @media screen and (max-width: 1279px) {
+    padding-bottom: 0px;
+  }
+  @include tablet {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+  @include mobile {
+    padding-bottom: 20px;
+  }
+  .consulting-content {
+    height: 100%;
+    margin-top: 34px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+
+    @include tablet {
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 16px;
+    }
+    .text-content {
+      width: 62%;
+      height: 100%;
+      & > .titleH2:nth-child(1),
+      & > .regular-text:nth-child(1) {
+        margin-top: 0px;
+      }
+      @include tablet {
+        width: 100%;
+      }
+      & .underline {
+        text-decoration: underline;
+      }
+
+      & .titleH2 {
+        font-size: 22px;
+        margin: 17px 0;
+        font-weight: 500;
+        @include mobile {
+          font-size: 16px;
+        }
+      }
+      & .titleH3 {
+        font-size: 22px;
+        margin: 17px 0;
+        font-weight: 500;
+        @include mobile {
+          font-size: 16px;
+        }
+      }
+      & .titleH4 {
+        font-size: 16px;
+        margin: 17px 0;
+        font-weight: 500;
+      }
+      & .regular-text {
+        color: #353535;
+        margin-top: 16px;
+        font-size: 16px;
+        font-weight: 400;
+        @include mobile {
+          font-size: 14px;
+        }
+      }
+      & .bold {
+        color: $color-black;
+        font-weight: 500;
+      }
+      & .margin-top {
+        margin-top: 0px !important;
+      }
+      //списки
+      & strong {
+        font-weight: 500;
+        color: $color-black;
+      }
+      & .italic {
+        font-style: italic;
+      }
+      & .consulting-list {
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 28px;
+        color: #353535;
+        margin-top: 16px;
+        & li {
+          line-height: 22px;
+          position: relative;
+          &:before {
+            content: '·';
+            position: absolute;
+            left: -20px;
+            font-size: 50px;
+            vertical-align: middle;
+            line-height: 20px;
+          }
+          & strong {
+            font-weight: 500;
+          }
+        }
+      }
+    }
+    .slider-block {
+      position: sticky;
+      top: 30px;
+      width: 25%;
+      min-width: 320px;
+      // margin-top: 16px;
+      @include tablet {
+        margin-top: 0;
+        position: static;
+        width: 100%;
+      }
+    }
+  }
+  & .list-links {
+    width: 100%;
+    margin-top: 128px;
+    @media screen and (max-width: 1279px) {
+      display: none;
+    }
+    & .section-consult__links {
+      background-color: transparent;
+      padding-bottom: 0;
+      & .container {
+        padding: 0;
+        & .section-consult__links-list-links {
+          li {
+            a {
+              height: 190px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              img {
+                margin-bottom: 0px;
+              }
+            }
+          }
+          @media screen and (max-width: 1439px) {
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: auto;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.project-image {
+  position: relative;
+  border-radius: 8px;
+  width: 100%;
+
+  .slick-slide {
+    position: relative;
+    border-radius: 8px;
+
+    .image-main {
+      width: 100%;
+      border-radius: 8px;
+
+      &:hover {
+        transition: transform 0.4s ease;
+
+        &:hover {
+          transform: scale(1.05);
+          border-top-right-radius: 8px;
+          border-top-left-radius: 8px;
+        }
+      }
+    }
+
+    .marked-icon {
+      position: absolute;
+      top: 17px;
+      right: 17px;
+    }
+
+    .all-photos {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      width: 111px;
+      height: 32px;
+      border-radius: 8px;
+      background-color: #aaa29a;
+      opacity: 0.8;
+      color: white;
+      font-size: 12px;
+      font-family: 'Inter', sans-serif;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+
+.section-consult__partners {
+  padding-top: 74px;
+  padding-bottom: 158px;
+  background-color: $color-consulting-background;
+
+  @include tablet {
+    padding-bottom: 76px;
+  }
+}
+
+.section-consult__partners-title {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: $color-black;
+  margin-bottom: 40px;
+
+  @include tablet {
+    font-size: 22px;
+  }
+}
+
+.section-consult__partners-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 102px;
+
+  @include tablet {
+    gap: 65px;
+  }
+
+  @include mobile {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  & li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: $color-gray2;
+  }
+}

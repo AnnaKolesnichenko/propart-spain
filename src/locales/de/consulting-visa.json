@@ -1,0 +1,60 @@
+{
+  "consultTitle": {
+    "title": "WIE ERHÄLT MAN EINE \"GOLDENE VISA\", EINEN AUFENTHALTSTITEL IN MARBELLA",
+    "description": "Dieser Inhalt enthält Echtzeitinformationen über Rechtsdienstleistungen in Spanien"
+  },
+  "textBlocks": {
+    "titles": {
+      "goldenVisa": "WAS IST EINE SPANISCHE GOLDENE VISA?",
+      "rightsHolder": "WELCHE RECHTE HAT EIN INHABER EINER 'GOLDENEN VISA'?",
+      "obtainingVisa": "Was ist erforderlich, um eine Goldene Visa und einen Aufenthaltstitel für einen Investor zu erhalten?",
+      "investmentAmounts": "INVESTITIONSSUMMEN FÜR DEN ERWERB EINER GOLDENEN VISA IN SPANIEN",
+      "residencePermit": "AUFENTHALTSTITEL FÜR INVESTOREN",
+      "faq": "Häufig gestellte Fragen"
+    },
+    "paragraphs": {
+      "goldenVisa": "Die \"Goldene Visa\" ist ein Visumtyp, der dem Investor das Recht gibt, das ganze Jahr über in Spanien zu residieren. Der Inhaber dieses Visums hat auch das Recht, Aufenthaltsdokumente für seine Familie (Ehepartner, minderjährige Kinder und erwachsene behinderte Kinder) auszustellen.",
+      "rights": [
+        "- Ganzjähriger Aufenthalt auf spanischem Gebiet.",
+        "- Arbeiten auf spanischem Gebiet.",
+        "- Freizügigkeit in Schengen-Ländern für bis zu 90 Tage ohne Visum.",
+        "- Es ist auch möglich, Familienmitglieder unter denselben Bedingungen nach Spanien zu bringen. Die \"Goldene Visa\" gilt für den Ehepartner, minderjährige Kinder und Verwandte, die physisch oder finanziell vom Investor abhängig sind."
+      ],
+      "obtainingVisa": [
+        "Um Kapital anzuziehen, entwickelte die spanische Regierung im Jahr 2013 ein Gesetz, das die Aufenthaltsgenehmigung für den ausländischen Investor vereinfacht.",
+        "Welche Vorteile erhalten Investoren in Spanien bei der Beantragung von Visa und Aufenthaltsgenehmigungen? Das Gesetz legt zwei Hauptinstrumente fest: die Goldene Visa (Aufenthaltsvisum für den Investor) und die Aufenthaltsgenehmigung für den Investor."
+      ],
+      "investmentAmounts": [
+        "Wer kann eine Goldene Visa beantragen? Jede natürliche Person, die die erforderlichen Voraussetzungen erfüllt und eine bedeutende Investition in die spanische Wirtschaft getätigt hat. Eine bedeutende Investition ist definiert als:",
+        "1) Erwerb unbelasteter Immobilien in Spanien im Wert von mehr als 500.000€.",
+        "2) Kapitaleinlage in Höhe von:",
+        "- 1.000.000€ Einzahlung bei spanischen Kreditinstituten.",
+        "- 1.000.000€ Beitrag zu Investmentfonds.",
+        "- 1.000.000€ beim Erwerb von Aktien am autorisierten Kapital bestehender Unternehmen.",
+        "- 2.000.000€ beim Kauf von Staatsanleihen.",
+        "3) Ein unternehmerisches Projekt zur Umsetzung in Spanien, das von öffentlichem Interesse ist und mindestens eine dieser Anforderungen erfüllt:",
+        "- Schaffung neuer Arbeitsplätze.",
+        "- Eine bedeutende Investition tätigen, die einen wichtigen wirtschaftlichen und sozialen Einfluss auf die Entwicklung der Region hat, in der das Projekt durchgeführt wird.",
+        "- Wesentlicher Beitrag zur Entwicklung von wissenschaftlicher und technologischer Innovation."
+      ],
+      "residencePermit": [
+        "Investoren können einen Aufenthaltstitel beantragen, wenn sie ein gültiges Aufenthaltsvisum (\"Goldene Visa\") oder ein Visum haben, das vor höchstens 90 Tagen abgelaufen ist und wenn mindestens ein Einreise in das Land mit diesem Visum erfolgt ist.",
+        "Wenn ein ausländischer Investor legal mit einem Touristenvisum in Spanien ist und kein Aufenthaltsvisum hat, kann er ebenfalls einen Aufenthaltstitel beantragen.",
+        "Im Falle von Antragstellern, die sich legal im Land aufhalten, werden Anträge auf Investor-Aufenthaltsgenehmigungen persönlich oder über einen gesetzlichen Vertreter bei der speziellen Institution la Unidad de Grandes Empresas y Colectivos Estratégicos in Madrid eingereicht."
+      ],
+      "faq": [
+        "1) Welche Fristen gelten für den Erhalt einer spanischen Aufenthaltsgenehmigung für einen Investor?",
+        "Wie beim Erhalt eines Investor-Visums beträgt sie 20 Kalendertage. Wenn die offiziellen Behörden innerhalb dieser Frist keine Antwort geben, wird die Aufenthaltsgenehmigung automatisch durch Verwaltungsschweigen erteilt.",
+        "2) Für welchen Zeitraum wird einem Investor eine Aufenthaltsgenehmigung erteilt?",
+        "Ursprünglich wird die Aufenthaltsgenehmigung für 2 Jahre erteilt, mit anschließender Verlängerung um 5 Jahre, wenn der Investitionsgegenstand erhalten bleibt.",
+        "3) Welche Rechte gewährt mir meine spanische Aufenthaltsgenehmigung als Investor?",
+        "Praktisch dieselben wie ein Aufenthaltsvisum, nämlich das Recht, in Spanien zu leben und zu arbeiten, jedoch für einen längeren Zeitraum.",
+        "4) Muss ich in Spanien Steuern zahlen, wenn ich eine Aufenthaltsgenehmigung habe?",
+        "Wie bei der Goldenen Visa lautet die Antwort auf diese Frage nein, es ist nicht erforderlich. Es gibt Unterschiede zwischen Aufenthaltsvisum, Aufenthaltsgenehmigung und Steuerresidenz. Eine Person gilt als Steuerresident in Spanien, wenn:",
+        "- Sie sich mehr als 183 Tage im Jahr im Land aufhält.",
+        "- Sie direkt oder indirekt in Spanien den Hauptteil ihrer Einkünfte oder finanziellen Vorteile konzentriert.",
+        "- Dauerhafter Aufenthalt des eingetragenen Ehepartners und der minderjährigen unterhaltsberechtigten Kinder des Investors im Land."
+      ]
+    }
+  }
+}

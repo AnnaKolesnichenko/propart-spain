@@ -1,0 +1,393 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+
+.section-consult__header {
+  position: relative;
+  padding-top: 20px;
+  background-color: $color-consulting-background;
+  overflow: hidden;
+}
+
+.section-consult__header-container {
+  & div {
+    width: 500px;
+
+    @include mobile {
+      width: 100%;
+    }
+
+    & h2 {
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: uppercase;
+      color: $color-black;
+
+      @include tablet {
+        font-size: 32px;
+      }
+    }
+
+    & h3 {
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: uppercase;
+      color: $color-brown;
+
+      margin-bottom: 24px;
+
+      @include tablet {
+        font-size: 16px;
+      }
+    }
+
+    & p {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      color: $color-gray2;
+
+      @include tablet {
+        font-size: 14px;
+      }
+    }
+  }
+
+  & ul {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+
+    @include mobile {
+      margin-top: 60px;
+      gap: 24px;
+      overflow: scroll;
+    }
+
+    & li {
+      width: 100%;
+      text-align: center;
+
+      @include mobile {
+        min-width: 160px;
+      }
+
+      & button {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding-top: 14px;
+        padding-bottom: 15px;
+        color: $color-gray2;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transition: opacity 0.5s, transform 0.5s;
+        cursor: pointer;
+
+        &:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          transform: scaleX(0);
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: $color-brown;
+          transform-origin: bottom right;
+          transition: transform 0.25s ease-out;
+        }
+
+        &:hover:after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+      }
+
+      & .active-btn {
+        color: $color-brown;
+
+        &:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          transform: scaleX(0);
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: $color-brown;
+          transform-origin: bottom right;
+          transition: transform 0.25s ease-out;
+
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+      }
+    }
+  }
+}
+
+::-webkit-scrollbar-horizontal {
+  display: none;
+}
+
+.section-consult__header-img {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  opacity: 0.1;
+
+  @include laptop {
+    right: -10%;
+  }
+
+  @include tablet {
+    right: 0;
+    width: 60%;
+    height: 60%;
+  }
+
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.section-consult__content {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background-color: $color-white;
+
+  @include mobile {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+}
+
+.consult-content__list {
+  padding-left: 94px;
+  padding-right: 94px;
+
+  @include laptop {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.consult-content__list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include mobile {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+  }
+}
+
+.consult-content__border {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 31%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #cecece;
+  }
+}
+
+.consult-content__link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0.9;
+  color: $color-black;
+  margin-bottom: 30px;
+  transition: $transition;
+
+  &:hover {
+    color: $color-brown;
+  }
+
+  @include laptop {
+    gap: 15px;
+  }
+
+  @include tablet {
+    gap: 8px;
+  }
+
+  @include mobile {
+    gap: 25px;
+  }
+}
+
+.consult-content__wrapper-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  & a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: $color-black;
+    transition: $transition;
+
+    &:hover {
+      color: $color-brown;
+    }
+  }
+}
+
+.consult-content__title-services {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: $color-gray2;
+
+  margin-bottom: 20px;
+}
+
+.consult-content__services {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 61px;
+
+  & a {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: $color-gray2;
+    transition: $transition;
+
+    &:hover {
+      color: $color-brown;
+    }
+  }
+}
+
+.consult-content__title-btns {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: $color-black;
+  margin-bottom: 22px;
+}
+
+.consult-content__btns {
+  display: flex;
+  gap: 13px;
+
+  & a {
+    display: block;
+    padding: 8px 36px;
+
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6;
+    color: $color-brown;
+
+    border-radius: 8px;
+    border: 1px solid $color-brown;
+    background-color: $color-white;
+    transition: $transition;
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-brown;
+    }
+  }
+}
+
+.consult-content__img {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 661px;
+  height: 372px;
+
+  @include laptop {
+    width: 50%;
+  }
+
+  @include tablet {
+    width: 45%;
+  }
+
+  @include mobile {
+    width: 100%;
+  }
+
+  & img {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(204deg, rgba(0, 0, 0, 0) 45.95%, rgba(0, 0, 0, 0.75) 89.83%),
+      linear-gradient(178deg, rgba(0, 0, 0, 0.2) 0.74%, rgba(0, 0, 0, 0) 20.01%);
+    object-fit: cover;
+  }
+
+  & p {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    width: 390px;
+
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: $color-white;
+
+    @include laptop {
+      width: 60%;
+    }
+
+    @include mobile {
+      font-size: 16px;
+      bottom: 16px;
+      left: 16px;
+      width: 100%;
+    }
+  }
+
+  & a {
+    position: absolute;
+    bottom: 25px;
+    right: 37px;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: $color-white;
+
+    @include mobile {
+      top: 16px;
+      right: 16px;
+    }
+  }
+}

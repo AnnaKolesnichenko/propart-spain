@@ -1,0 +1,113 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+.topProject-swiper {
+  width: 100%;
+  height: 100%;
+
+  .swiper-pagination {
+    display: none;
+    @include mobile {
+      display: block;
+      z-index: 10;
+      right: 0px;
+      margin-left: auto;
+      .swiper-pagination-bullet {
+        background-color: #bebdb6;
+      }
+      .swiper-pagination-bullet-active {
+        background-color: $color-white;
+      }
+    }
+  }
+}
+.topProject-swiper__slide {
+  position: relative;
+  height: 100%;
+  @media screen and (max-width: 1280px) {
+    width: 275px;
+  }
+  @include tablet {
+    width: 275px;
+  }
+  .topProject-swiper__slide__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    @include mobile {
+      border-radius: 12px;
+    }
+  }
+  .topProject-swiper__slide__bg {
+    border-radius: 10px;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(179deg, rgba(0, 0, 0, 0.2) 0.74%, rgba(0, 0, 0, 0) 20.01%),
+      linear-gradient(185deg, rgba(0, 0, 0, 0) 62.13%, rgba(0, 0, 0, 0.75) 76.32%);
+    color: $color-white;
+    @include mobile {
+      background: linear-gradient(0deg, #0009 22.09%, #01000000 43.15%, #0000005c 93.68%);
+    }
+    .linkIcon {
+      position: absolute;
+      right: 18px;
+      top: 18px;
+    }
+    .topProject-swiper__slide__bg__text {
+      position: absolute;
+      left: 18px;
+      bottom: 18px;
+      @media screen and (max-width: 1280px) {
+        left: 8px;
+        bottom: 8px;
+      }
+      @include tablet {
+        left: 8px;
+        bottom: 8px;
+      }
+      @include mobile {
+        left: 16px;
+        bottom: 16px;
+      }
+      .topProject-swiper__slide__bg__text__title {
+        font-weight: 500;
+        font-size: 24px;
+        color: #ebebeb;
+        @media screen and (max-width: 1280px) {
+          font-size: 20;
+        }
+        @include tablet {
+          font-size: 20;
+        }
+      }
+      .topProject-swiper__slide__bg__text__area {
+        width: max-content;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 14px;
+        color: #f1f1f1;
+        @media screen and (max-width: 1280px) {
+          margin-top: 6px;
+          font-size: 12px;
+        }
+        @include tablet {
+          margin-top: 6px;
+          font-size: 12px;
+        }
+        @include mobile {
+          position: absolute;
+          bottom: 140px;
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+}

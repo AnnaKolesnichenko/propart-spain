@@ -1,0 +1,65 @@
+@import './../../../styles/mixins';
+
+.area__distance {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+    border: 1px solid #f1f1f1;
+    border-radius: 8px;
+
+    @include lg {
+        gap: 5px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .content {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .distance-list {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        @include lg {
+            gap: 5px;
+
+
+            .list-item {
+                display: none;
+            }
+
+            .list-item:first-child {
+                display: list-item;
+            }
+        }
+
+        .time {
+            display: flex;
+            place-items: center;
+            gap: 10px;
+            font-weight: 500;
+            font-size: 22px;
+            color: #222;
+            margin-bottom: 10px;
+        }
+
+        .city {
+            flex: 1;
+            font-weight: 300;
+            font-size: 14px;
+            color: #222;
+        }
+
+    }
+
+}

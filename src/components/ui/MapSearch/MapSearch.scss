@@ -1,0 +1,113 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+
+.map-search-block-container {
+  z-index: 53;
+  width: 100%;
+  height: 42px;
+  position: relative;
+  .map-search-block-form {
+    z-index: 53;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 8px 0 16px;
+    border-radius: 11px;
+    border: 1px solid #e3e3e3;
+    background: #fff;
+    transition: $transition;
+    @media screen and (max-width: 1150px) {
+      cursor: pointer;
+      position: absolute;
+    }
+    .search-icon {
+      color: #000;
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+    &.active {
+      z-index: 53;
+      position: absolute;
+      min-width: 300px;
+      cursor: default;
+    }
+
+    .map-search-block-input {
+      width: 100%;
+      background: transparent;
+      border: 0;
+      outline: 0;
+      color: #000;
+      font-size: 14px;
+    }
+    .map-search-block-input-close {
+      position: absolute;
+      right: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      color: #919191;
+      transition: $transition;
+      @media screen and (max-width: 1150px) {
+        display: none;
+        &.active {
+          display: flex;
+        }
+      }
+      &:hover {
+        svg {
+          transition: $transition;
+          transform: scale(1.1);
+        }
+        color: #f44336;
+      }
+    }
+  }
+
+  .map-search-block-searchList {
+    position: absolute;
+    top: 42px;
+    z-index: 52;
+    width: 100%;
+    min-width: 300px;
+    border-radius: 12px;
+    background-color: $color-white;
+    overflow: auto;
+
+    padding: 8px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.06), 0 4px 4px rgba(0, 0, 0, 0.12);
+    .map-search-block-searchList-ul {
+      width: 100%;
+      height: 200px;
+      overflow: auto;
+      color: $color-gray2;
+      @include custom-scrollbar(#dba77b);
+      & li {
+        transition: $transition;
+        padding: 8px 16px;
+        cursor: pointer;
+        color: #000;
+       // color: $color-gray2;
+        font-size: 14px;
+        &.active {
+          color: $color-brown;
+          font-weight: 400;
+        }
+        &:hover {
+          color: $color-brown;
+          font-weight: 400;
+        }
+      }
+    }
+    .map-search-block-searchList-error {
+      padding: 0 16px;
+      color: #919191;
+    }
+  }
+}

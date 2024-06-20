@@ -1,0 +1,28 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+
+.list-footer {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  @include mobile {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  & li {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: $color-black2;
+    transition: $transition;
+
+    &:hover {
+      color: $color-brown;
+    }
+  }
+}

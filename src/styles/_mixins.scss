@@ -1,0 +1,88 @@
+@mixin mobile {
+  @media only screen and (max-width: 767px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media only screen and (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media screen and (max-width: 1439px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media screen and (max-width: 1919px) {
+    @content;
+  }
+}
+@import './variables';
+
+// Small devices
+@mixin sm {
+    @media (max-width: #{$screen-sm}) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media (max-width: #{$screen-md}) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media (max-width: #{$screen-lg}) {
+        @content;
+
+    }
+}
+
+@mixin xl {
+    @media (max-width: #{$screen-xl}) {
+        @content;
+    }
+}
+
+// Custom
+@mixin rwd_max($screen) {
+    @media (max-width: $screen) {
+        @content;
+    }
+}
+
+@mixin rwd_min($screen) {
+    @media (min-width: $screen) {
+        @content;
+    }
+}
+
+@mixin custom-scrollbar($thumb-color: #ccc) {
+    &::-webkit-scrollbar {
+        width: 3px;
+        /* Ширина скроллбара */
+    }
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+        /* Прозрачный трек */
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $thumb-color;
+        /* Цвет ползунка */
+        border-radius: 5px;
+        /* Скругление углов ползунка */
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: darken($thumb-color, 10%);
+        /* Затемненный цвет при наведении */
+    }
+}

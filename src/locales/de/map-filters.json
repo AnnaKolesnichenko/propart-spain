@@ -1,0 +1,30 @@
+{
+  "search_placeholder": "Geben Sie den Namen ein",
+  "search_list_error": "Keine Ergebnisse gefunden, versuchen Sie eine andere Abfrage",
+
+  "type_title": "Typ",
+  "type_options": {
+    "Apartment": "Wohnung",
+    "Townhouse": "Reihenhaus",
+    "Villa": "Villa",
+    "Duplex": "Duplex",
+    "Flat": "Wohnung",
+    "Penthouse": "Penthouse",
+    "Ground floor": "Erdgeschoss"
+  },
+
+  "beds_title": "Betten",
+  "beds_room": "Studio",
+
+  "price_title": "Preis",
+
+  "size_title": "Größe",
+
+  "area_title": "Bereich",
+
+  "clean": "Reinigen",
+
+  "mob_title": "Filter",
+  "mob_clear": "Filter löschen",
+  "mob_submit": "Filter anwenden"
+}

@@ -1,0 +1,153 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+.requirements-list {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  //margin-top: 100px;
+  //margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  @include tablet {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    //margin-top: 50px;
+    // margin-bottom: 50px;
+    gap: 16px;
+  }
+  @include mobile {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .requirements-list__title {
+    display: none;
+    @include mobile {
+      display: block;
+      margin-bottom: 24px;
+    }
+  }
+  .item-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 32px;
+    @include tablet {
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 16px;
+      padding: 16px;
+    }
+    /*прибрав відповідно до оновлень
+    @include mobile {
+      border-radius: 12px;
+      box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+      padding: 16px;
+    }
+    */
+    .text {
+      text-align: right;
+      @include tablet {
+        text-align: left;
+      }
+      > span {
+        font-weight: 500;
+        font-size: 18px;
+        @include tablet {
+          font-size: 16px;
+        }
+      }
+      > p {
+        width: 90%;
+        margin-top: 4px;
+        margin-left: auto;
+        font-weight: 400;
+        color: $color-gray2;
+        @include tablet {
+          font-size: 12px;
+          margin-left: 0;
+          width: 100%;
+        }
+      }
+    }
+    .image-block {
+      background-color: $color-brown;
+      min-width: 123px;
+      height: 113px;
+      border-radius: 10px 30px 30px 10px;
+      position: relative;
+      border: 1px solid #c29773;
+      @include tablet {
+        min-width: 70px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: $color-white;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .icon {
+        position: absolute;
+        top: -30px;
+        left: -30px;
+        display: block;
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $color-white;
+        border-radius: 50%;
+        color: $color-brown;
+        transition: $transition;
+        box-shadow: 0 0 20px #0000000d;
+        &:hover {
+          color: $color-white;
+          background-color: $color-brown;
+        }
+        @include tablet {
+          width: 70px;
+          height: 70px;
+          left: auto;
+          right: auto;
+          top: auto;
+          box-shadow: none;
+          //фон для першої іконки
+          background-color: $color-brown;
+          color: $color-white;
+          svg {
+            width: 28px;
+            height: 28px;
+          }
+        }
+        @include mobile {
+          box-shadow: 0 0 20px #0000000d;
+        }
+      }
+    }
+    &.reverce {
+      flex-direction: row;
+      justify-content: flex-start;
+      .text {
+        text-align: left;
+        p {
+          margin-left: 0;
+          margin-right: auto;
+        }
+      }
+      .image-block {
+        border-radius: 30px 10px 10px 30px;
+        .icon {
+          left: auto;
+          right: -30px;
+          @include tablet {
+            right: auto;
+          }
+        }
+      }
+    }
+  }
+}

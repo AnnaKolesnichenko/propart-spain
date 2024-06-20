@@ -1,0 +1,249 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+.filter-block-properties-mob-search {
+  margin-top: 16px;
+  .map-search-block-container {
+    height: 46px;
+    .map-search-block-form {
+      border-radius: 8px;
+      gap: 10px;
+      padding: 8px;
+      .search-icon {
+        width: 14px;
+        height: 14px;
+        svg {
+          width: 14px;
+          height: 14px;
+        }
+      }
+    }
+    .map-search-block-searchList {
+      top: 46px;
+      border-radius: 8px;
+    }
+  }
+}
+
+.filter-block-properties {
+  border-bottom: 1px solid #dadada;
+  background-color: #fafafa;
+  padding: 15px 0;
+  .filter-block-properties-filters {
+    .row1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      gap: 12px;
+      margin-bottom: 12px;
+      @include laptop {
+        height: 34px;
+      }
+      .radio {
+        @include mobile {
+          display: none;
+        }
+        .hero-form-buttons {
+          margin: 0;
+          height: auto;
+          gap: 12px;
+          & .middle {
+            display: none;
+          }
+          .form-button {
+            padding: 0 14px;
+            width: fit-content;
+            border: 1px solid rgba(204, 204, 204, 0.6);
+            background: #ffffff26;
+            height: 56px;
+            border-radius: 8px;
+            font-weight: 400;
+            color: $color-black;
+            white-space: nowrap;
+            font-size: 14px;
+            @include laptop {
+              height: 34px;
+              font-size: 12px;
+            }
+            &.active {
+              border: 1px solid $color-brown;
+              color: $color-brown;
+            }
+
+            & .radio {
+              display: none;
+            }
+          }
+        }
+      }
+      .search {
+        width: 100%;
+        position: relative;
+        .map-search-block-container {
+          height: 56px;
+          @include laptop {
+            height: 34px;
+          }
+          .map-search-block-form {
+            border-radius: 8px;
+            background-color: #fafafa;
+            @include laptop {
+              gap: 10px;
+              padding: 8px;
+            }
+            .map-search-block-input {
+              font-size: 14px;
+              @include laptop {
+                font-size: 12px;
+              }
+            }
+            .search-icon {
+              width: 20px;
+              height: 20px;
+              svg {
+                width: 20px;
+                height: 20px;
+              }
+              @include laptop {
+                width: 14px;
+                height: 14px;
+                svg {
+                  width: 14px;
+                  height: 14px;
+                }
+              }
+            }
+            .map-search-block-input-close {
+              @include laptop {
+                right: 8px;
+                width: 20px;
+                height: 20px;
+                svg {
+                  width: 12px;
+                  height: 12px;
+                }
+              }
+            }
+          }
+          .map-search-block-searchList {
+            top: 56px;
+            border-radius: 8px;
+            @include laptop {
+              top: 34px;
+            }
+          }
+        }
+      }
+      .clear {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        border: 1px solid #ff5959;
+        border-radius: 8px;
+        height: 56px;
+        color: #ff5959;
+        background: rgba(255, 89, 89, 0.2);
+        font-size: 14px;
+        padding: 7px 16px 7px 8px;
+        @include laptop {
+          height: 34px;
+        }
+        @include mobile {
+          display: none;
+          font-size: 12px;
+        }
+      }
+    }
+    .row2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      @include mobile {
+        display: none;
+      }
+      .dropdown {
+        flex: 1;
+        width: max-content;
+        height: 56px;
+        @include laptop {
+          height: 34px;
+        }
+        > div:nth-child(1) {
+          height: 100%;
+          width: 100%;
+          border-radius: 8px;
+          > div:nth-child(1) {
+            > div:nth-child(1),
+            button:nth-child(1) {
+              padding: 7px 16px !important;
+              & .rs-picker-value-count {
+                right: 40px;
+              }
+              @include laptop {
+                padding: 7px !important;
+                & .rs-picker-value-count {
+                  right: 30px;
+                }
+              }
+              @include tablet {
+                & .rs-picker-value-count {
+                  display: flex;
+                  right: 24px;
+                }
+              }
+            }
+          }
+        }
+        .custom-checkpicker {
+          border-radius: 8px;
+        }
+        .rs-picker-toggle {
+          background-color: #fafafa !important;
+          border-radius: 8px;
+          justify-content: flex-start;
+        }
+        .rs-picker-toggle-label {
+          color: $color-black !important;
+          @include laptop {
+            font-size: 12px;
+          }
+        }
+        &.combine {
+          & > div:nth-child(1) {
+            & > div:nth-child(1) {
+              & > .rs-dropdown-toggle {
+                height: 56px;
+                @include laptop {
+                  height: 34px;
+                }
+              }
+            }
+          }
+          .rs-dropdown-menu {
+            font-size: 14px;
+            @include laptop {
+              font-size: 12px;
+            }
+          }
+        }
+        //кнопка dropdown
+        .rs-btn {
+          padding: 7px !important;
+        }
+        //кнопка dropdown2
+        .rs-dropdown-toggle {
+          padding: 7px !important;
+          justify-content: space-between;
+          border-radius: 8px;
+          font-size: 14px;
+          color: $color-black;
+          @include laptop {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

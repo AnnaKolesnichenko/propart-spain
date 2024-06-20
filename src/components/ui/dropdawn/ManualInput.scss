@@ -1,0 +1,42 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+
+.manual__input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+
+  padding: 5px 10px 5px 0;
+  height: 36px;
+  // TODO make % width
+  width: 93px;
+  @include mobile {
+    width: 100%;
+    background-color: $color-white;
+    height: 48px;
+    margin-top: 5px;
+  }
+
+  &.error {
+    border: 1px solid rgb(245, 110, 110);
+  }
+
+  input {
+    width: 100%;
+    border: none;
+    color: #222222;
+    padding: 0 5px 0 10px;
+    font-size: 14px;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      font-size: 14px;
+      color: #222222;
+    }
+  }
+}

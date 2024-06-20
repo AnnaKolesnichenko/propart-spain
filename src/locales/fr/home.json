@@ -1,0 +1,134 @@
+{
+  "hero": {
+    "h1": "Top Properties In Costa De Sol",
+    "description": "Find your dream home With property partners",
+    "filter-select": "Select your area",
+    "filter-radio1": "New Building",
+    "filter-radio2": "Special Offer",
+    "filter-submit": "Find me properties"
+  },
+  "top-projects": {
+    "title": "top projects",
+    "description": "Nestled along the sun-kissed shores of the Costa del Sol, Malaga is a captivating city that effortlessly blends rich history with modern charm. As the birthplace of the renowned artist Pablo Picasso, Malaga showcases a cultural tapestry woven with artistic vibrancy."
+  },
+  "areas": {
+    "map-description": "Nestled along the sun-kissed shores of the Costa del Sol, Malaga is a captivating city that effortlessly blends rich history.",
+    "project1-description": "Known for its captivating old town, stunning beaches, and vibrant cultural scene, Estepona has become an increasingly popular destination for both tourists and expatriates seeking the authentic Spanish lifestyle.",
+    "project1-price": "From EUR 2.3M",
+    "project1-best-for": "Best for investment",
+    "project1-airport": "55 min to Malaga airport",
+
+    "project2-description": "The advantages of Mijas Costa include quiet residential areas within easy reach of the busy resorts of Marbella and Fuengirola; excellent services and facilities; and a good range of property, often at more affordable prices than nearby Marbella. Mijas Costa is famed as a family-friendly place to go on holiday or to live.",
+    "project2-price": "From EUR 100K",
+    "project2-best-for": "Best for living",
+    "project2-airport": "20 min to Malaga airport",
+
+    "project3-description": "Known for its captivating old town, stunning beaches, and vibrant cultural scene, Estepona has become an increasingly popular destination for both tourists and expatriates seeking the authentic Spanish lifestyle.",
+    "project3-price": "From EUR 2.3M",
+    "project3-best-for": "Best for investment",
+    "project3-airport": "55 min to Malaga airport",
+
+    "project4-description": "Home to many Golf Courses and exclusive residences, the natural surroundings combined with a very low build density mean that Benahavis is highly sought-after as somewhere to buy property on the Costa del Sol, particularly among foreigners looking for a haven of peace and quiet within easy reach of Marbella.",
+    "project4-price": "From EUR 1M",
+    "project4-best-for": "Best for living",
+    "project4-airport": "20 min to Malaga airport",
+
+    "project5-description": "The style of life in Fuengirola is characterized by a harmonious blend of coastal relaxation, cultural richness, and vibrant urban living. Residents and visitors alike enjoy a lifestyle that seamlessly combines the traditional charm of a coastal town with modern amenities, creating a dynamic and diverse environment.",
+    "project5-price": "From EUR 200K",
+    "project5-best-for": "Best for investment",
+    "project5-airport": "20 min to Malaga airport"
+  },
+  "attention": {
+    "title": "With attention to every detail",
+    "description": "Each property has been handpicked for its unique blend of elegance, comfort, and sophistication offering an unparalleled living experience. Immerse yourself in the epitome of luxury with breathtaking views state-of-the-art amenities, and bespoke interiors designed for those who appreciate the finer things in life.",
+    "exclusive": "Exclusive selection from Property Partners",
+    "button": "Get special collection here",
+    "button-mob": "Завантажити добірку",
+    "title-mob": "Selection of projects for obtaining Spanish residency"
+  },
+  "our-services": {
+    "title1": "our",
+    "title2": "services",
+    "description": "We provide a wide range of services with our partners",
+
+    "insurance": "Insurance",
+    "insurance-text": "Peace of Mind Protection",
+
+    "mortgage": "Mortgage",
+    "mortgage-text": "Home financing for all needs.",
+
+    "legal-services": "Legal services",
+    "legal-services-text": "Consulting",
+
+    "construction": "Construction",
+    "construction-text": "Innovative and Sustainable Solutions",
+
+    "real-estate": "Real Estate",
+    "real-estate-text": "Buy, Sell and Manage",
+
+    "golden-visa": "Golden visa",
+    "golden-visa-text": "Year-round residency via Golden Visa."
+  },
+  "projects": {
+    "project1-title": "Buy real estate",
+    "project1-description": "Purchase a dream house for life or investment with Property Partners",
+    "project2-title": "Construction services",
+    "project2-description": "All kinds of renovation works, design, construction of villas and large projects",
+    "project3-title": "Legal services",
+    "project3-description": "Our experts can help to get residence permit, register business and other",
+    "project4-title": "Concierge service",
+    "project4-description": "Get personal assistance with all you needs from driver to babysitter",
+    "project5-title": "Golden Visa",
+    "project5-description": "We will arrange all type of visas for you and your family",
+    "project6-title": "Insurance",
+    "project6-description": "We prioritize safeguarding your valuables."
+  },
+  "zoom": {
+    "title": "Arrange instant zoom meeting with our agent",
+    "name-input": "Your name",
+    "phone-input": "Phone number",
+    "button": "Select time",
+    "error1": "error1",
+    "error2": "error2"
+  },
+  "requirements": {
+    "requirements-title": "Requirements for obtaining a Spanish \"Golden Visa\"",
+    "requirements-description": "In addition to the investment, the prerequisites are:",
+
+    "requirements1-title": "Visa",
+    "requirements1-description": "The holder of this visa also has the right to issue residence documents for his/her family",
+
+    "requirements2-title": "Construction",
+    "requirements2-description": " The company undertakes projects of various storeys, from small private homes to large residential complexes.",
+
+    "requirements3-title": "Digital nomand",
+    "requirements3-description": "The digital nomad visa, or visa for digital nomads, is becoming increasingly popular in today`s world",
+
+    "requirements4-title": "Tourist license",
+    "requirements4-description": " A tourist license in Spain is a key document for those who want to rent out their property to short-term tourists.",
+
+    "requirements5-title": "Concierge Service",
+    "requirements5-description": "Our professionals take care of all aspects of managing your property, from rentals to maintenance."
+  },
+  "requirements-list": {
+    "requirements-title": "Other services",
+
+    "requirements1-title": "Consulting",
+    "requirements1-description": "Trust us for concise, results-driven solutions that elevate your business in the dynamic world of real estate.",
+
+    "requirements2-title": "Legal Services",
+    "requirements2-description": "We are experts in all areas related to the acquisition of various types of real estate: office buildings, shopping centers, industrial etc.",
+
+    "requirements3-title": "Mortgage",
+    "requirements3-description": "Your Home Financing Partner: Whether you`re a resident or non-resident, individual or business",
+
+    "requirements4-title": "Insurance",
+    "requirements4-description": "Protecting Your Peace of Mind: At Insurance, we understand the importance of safeguarding what matters most to you.",
+
+    "requirements5-title": "Student visa",
+    "requirements5-description": "Student visa to Spain is an important document for all those who plan to study in educational institutions of this country for more than 180 days.",
+
+    "requirements6-title": "Golden visa",
+    "requirements6-description": "\"Golden visa\" is a type of visa that gives the investor the right to reside in Spain for the whole year."
+  }
+}

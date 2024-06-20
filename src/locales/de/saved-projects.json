@@ -1,0 +1,21 @@
+{
+  "title": "Gespeicherte Projekte",
+  "description": "Teilen Sie Projekte mit unserem Experten, und Sie erhalten weitere Informationen zu jedem einzelnen.",
+  "clear-all": "Alle Eigenschaften löschen",
+  "form-title": "Erhalten Sie persönliche Angebote basierend auf Ihren gespeicherten Projekten",
+
+  "no-selected": "Keine Projekte gespeichert",
+
+  "name-label": "Name",
+  "name-placeholder": "Geben Sie Ihren Namen ein",
+
+  "phone-label": "Vollständige Telefonnummer",
+  "phone-placeholder": "Geben Sie Ihre Telefonnummer ein",
+
+  "radio-label": "Wann ist es Ihnen bequem zu kommunizieren",
+  "radio1": "Bis 12 Uhr",
+  "radio2": "Nach 12 Uhr",
+  "radio3": "Text auf WA",
+
+  "submit": "Senden und Live-Chat mit dem Experten öffnen"
+}

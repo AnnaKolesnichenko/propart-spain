@@ -1,0 +1,287 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+
+.footer {
+  padding-top: 48px;
+  padding-bottom: 20px;
+
+  @include tablet {
+    position: relative;
+    padding-top: 32px;
+    padding-bottom: 18px;
+
+    &::before {
+      position: absolute;
+      content: '';
+      top: 27%;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: $color-background;
+
+      @include mobile {
+        top: 31%;
+      }
+
+      // @media screen and (max-width: 550px) {
+      //   top: 25%;
+      // }
+
+      // @media screen and (max-width: 450px) {
+      //   top: 27%;
+      // }
+    }
+
+    &::after {
+      position: absolute;
+      content: '';
+      bottom: 24%;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: $color-background;
+
+      @include mobile {
+        bottom: 18%;
+      }
+    }
+  }
+
+  @include mobile {
+    padding-bottom: 18px;
+  }
+}
+
+.footer-wrapper__top {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 69px;
+
+  @include tablet {
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 40px;
+  }
+
+  @include mobile {
+    gap: 40px;
+  }
+
+  &::after {
+    position: absolute;
+    content: '';
+    bottom: -48px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #c8c8c8;
+
+    @include tablet {
+      height: 0;
+    }
+  }
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  gap: 20px;
+  width: 240px;
+
+  @include mobile {
+    padding: 16px;
+    width: 100%;
+  }
+
+  & p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: $color-gray2;
+  }
+}
+
+.footer-contacts__logo {
+  color: $color-brown;
+  width: 181px;
+
+  & svg {
+    width: 100%;
+    height: 50px;
+  }
+}
+
+.footer-contacts__location {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: $color-gray2;
+  transition: $transition;
+
+  &:hover {
+    color: $color-brown;
+  }
+}
+
+.footer-list {
+  display: flex;
+  gap: 136px;
+
+  @include laptop {
+    gap: 50px;
+  }
+
+  @include tablet {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  @include mobile {
+    gap: 28px;
+    flex-direction: column;
+  }
+
+  & li {
+    width: 180px;
+
+    @include mobile {
+      width: fit-content;
+    }
+
+    & h3 {
+      color: $color-black;
+
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    & p {
+      margin-top: 16px;
+      color: $color-gray2;
+
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.7;
+    }
+  }
+}
+
+.list-wrap__mobile {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-tablet {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  @include tablet {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  & p {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: $color-brown;
+  }
+}
+
+.footer-tablet__wrapper-mobile {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  & span {
+    color: $color-black2;
+
+    font-family: 'Onest', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+  }
+}
+
+.footer-tablet__wrapper-desktop {
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  display: flex;
+  gap: 50px;
+
+  @include tablet {
+    position: static;
+    translate: 0;
+    flex-direction: column;
+    gap: 17px;
+  }
+
+  & span {
+    color: $color-black2;
+
+    font-family: 'Onest', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+  }
+}
+
+.footer-tablet__link {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 13px;
+  width: 199px;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: $color-white;
+
+  border-radius: 8px;
+  border: 1px solid $color-brown;
+  background-color: $color-brown;
+  transition: $transition;
+
+  @include mobile {
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  & svg {
+    width: 25px;
+    margin-left: auto;
+    margin-right: 0;
+
+    @include mobile {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &:hover {
+    color: $color-brown;
+    background-color: $color-white;
+  }
+}

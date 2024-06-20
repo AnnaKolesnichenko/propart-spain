@@ -1,0 +1,64 @@
+{
+  "header": {
+    "navlink-home": "Головна",
+    "navlink-properties": "Нерухомість",
+    "navlink-map": "Карта",
+    "navlink-areas": "Райони",
+    "navlink-consulting": "Консалтинг",
+    "navlink-visa": "Віза",
+    "navlink-legal-services": "Юридичні послуги",
+    "navlink-construction": "Будівництво",
+    "navlink-consierge": "Консьєрж",
+    "navlink-mortgage": "Іпотека",
+
+    "link-in-header": "Знайти нерухомість",
+    "btnSort": "Сортування",
+
+    "saved": "Збережено",
+    "tel": "Миттєвий дзвінок",
+    "filter": "Фільтр",
+    "call": "Дзвінок",
+    "map": "Карта",
+
+    "menu-mobile": "Меню",
+    "tel-mobile": "Зателефонуйте нам зараз"
+  },
+
+  "footer": {
+    "list-properties": "Купити нерухомість в Коста дель Соль",
+    "list-properties-subtitle": "Купити нерухомість в",
+    "list-properties-1": "Марбелья",
+    "list-properties-2": "Естепона",
+    "list-properties-3": "Бенахавіс",
+    "list-properties-4": "Фуенгірола",
+    "list-properties-5": "Міхасе",
+
+    "list-consulting": "Консалтинг та консьєрж-сервіс",
+    "list-consulting-subtitle": "Отримати допомогу з",
+    "list-consulting-1": "Віза",
+    "list-consulting-2": "Юридичні послуги",
+    "list-consulting-3": "Страхування",
+    "list-consulting-4": "Іпотека",
+    "list-consulting-5": "Nota Simple",
+
+    "list-services": "Послуги",
+    "list-services-subtitle": "Отримати допомогу з",
+    "list-services-1": "Віза",
+    "list-services-2": "Юридичні послуги",
+    "list-services-3": "Страхування",
+    "list-services-4": "Іпотека",
+    "list-services-5": "Nota Simple",
+    "list-services-6": "Ремонт та меблювання",
+    "list-services-7": "Обрати будівництво",
+    "list-services-8": "Віза цифрового кочівника",
+    "list-services-9": "Туристична ліцензія",
+    "list-services-10": "Студентська віза",
+
+    "location": "Пл. де ла Iглесiя, 3, офіс 1-D, 29670, Сан-Педро-де-Алькантара, Малага",
+    "rights": "Всі права захищені",
+    "privacyPolicy": "Політика конфіденційності",
+    "termsOfUse": "Умови використання",
+    "btnMap": "Перейти до карти",
+    "btnProperty": "Знайти нерухомість"
+  }
+}

@@ -1,0 +1,77 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+.topProject {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+  margin-top: 113px;
+  position: relative;
+  @media screen and (max-width: 1280px) {
+    flex-direction: column;
+    gap: 0;
+    margin-top: 24px;
+  }
+  @include tablet {
+    flex-direction: column;
+    gap: 0;
+    margin-top: 24px;
+  }
+  @include mobile {
+    width: calc(100% - 32px);
+    margin: 26px 16px 0;
+    padding: 24px 16px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 35px #0000000d;
+  }
+
+  .topProject-information {
+    width: calc(30% - 24px);
+    // width: 29%;
+    @media screen and (max-width: 1280px) {
+      width: 100%;
+    }
+    @include tablet {
+      width: 100%;
+    }
+    h2 {
+      font-weight: 600;
+      font-size: 24px;
+      text-transform: uppercase;
+      @include laptop {
+        // font-size: 20px;
+      }
+    }
+    p {
+      font-weight: 300;
+      font-size: 15px;
+      color: #717171;
+      margin: 16px 0 24px;
+      @include laptop {
+        font-size: 14px;
+        margin: 12px 0;
+      }
+    }
+    .topProject-swiper__swiper-buttons {
+      @media screen and (max-width: 1280px) {
+        display: none;
+      }
+      @include tablet {
+        display: none;
+      }
+    }
+  }
+  .topProject-swiper__container {
+    width: calc(68%);
+    height: 388px;
+    @media screen and (max-width: 1280px) {
+      width: 100%;
+      height: 192px;
+    }
+    @include tablet {
+      width: 100%;
+      height: 192px;
+    }
+  }
+}

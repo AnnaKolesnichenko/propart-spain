@@ -1,0 +1,155 @@
+@import '@/styles/variable';
+
+.dropdown-home {
+  position: relative;
+  width: 77px;
+  z-index: 1100;
+}
+
+.dropdown-home__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 13px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  background-color: rgba(53, 53, 53, 0.35);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  color: $color-white;
+}
+
+.dropdown-btn__icon {
+  transition: $transition;
+}
+
+.dropdown-btn__icon-active {
+  transform: rotateX(180deg);
+}
+
+.home-last {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  padding: 0;
+  z-index: 9999;
+  background-color: rgba(136, 136, 136, 0.35);
+  backdrop-filter: blur(11px);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.last-home__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: $color-white;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  width: 100%;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  transition: $transition;
+
+  &:hover {
+    color: $color-brown;
+  }
+}
+
+.dropdown-Nothome {
+  position: relative;
+  width: 77px;
+  z-index: 1100;
+}
+
+.dropdown-Nothome__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  width: 100%;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  color: $color-black;
+  transition: $transition;
+}
+
+.dropdown-Nothome__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 9px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  background-color: $color-white;
+  width: 100%;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  color: $color-black;
+}
+
+.Nothome-last {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  background-color: $color-white;
+  width: 100%;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  color: $color-black;
+  border: 1px solid #f1f1f1;
+  height: 150px;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.last-Nothome__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: transparent;
+  width: 100%;
+
+  padding: 8px 10px;
+  text-transform: uppercase;
+}

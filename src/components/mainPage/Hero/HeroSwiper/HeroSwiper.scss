@@ -1,0 +1,23 @@
+@import '@/styles/variable';
+.hero-swiper {
+  width: 100%;
+  height: 100%;
+  .hero-swiper__slide {
+    .hero-swiper__slide__image {
+     width: 100%;
+      height: auto;
+      object-fit: cover;
+      flex-shrink: 1;
+    }
+    .hero-swiper__slide__bg {
+      z-index: 5;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.32) 78.54%, rgba(0, 0, 0, 0.32) 95.2%),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 31.62%);
+    }
+  }
+}

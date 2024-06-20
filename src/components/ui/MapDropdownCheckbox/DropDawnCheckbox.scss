@@ -1,0 +1,228 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+
+.custom-checkpicker-container {
+  position: relative;
+  display: flex;
+  z-index: 52;
+  .rs-picker-menu {
+    z-index: 51;
+    display: block;
+    position: absolute;
+    top: 0px;
+  }
+}
+.rs-picker-check-menu {
+  height: 150px;
+  z-index: 3030;
+  @include mobile {
+    z-index: 3030 !important;
+  }
+}
+.custom-checkpicker {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 10px;
+  @include mobile {
+    border-radius: 8px;
+  }
+  .rs-picker-toggle {
+    color: $color-black;
+  }
+  .rs-btn {
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    @include mobile {
+      justify-content: flex-start;
+      border-radius: 8px;
+      color: $color-black;
+    }
+    & .rs-stack {
+      //текст кнопки
+      .rs-stack-item {
+        .rs-picker-toggle-label {
+          color: #222;
+          font-size: 14px !important;
+        }
+      }
+      .rs-picker-toggle-label {
+        padding-right: 55px;
+        &::after {
+          display: none;
+        }
+        @media screen and (max-width: 900px) {
+          padding-right: 20px;
+        }
+        @include mobile {
+          color: $color-black;
+        }
+      }
+      .rs-picker-toggle-value {
+        //список обраних
+        .rs-picker-value-list {
+          display: none;
+          @include mobile {
+            display: block;
+            overflow: hidden;
+            max-width: calc(100% - 160px);
+            position: absolute;
+            left: 100px;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+          .rs-picker-value-separator {
+            color: #222222;
+          }
+        }
+      }
+    }
+  }
+  .rs-picker-toggle-placeholder {
+    color: #222222;
+  }
+}
+
+.rs-checkbox-label {
+  font-weight: normal;
+  color: #222222;
+}
+
+.rs-picker-value-item {
+  color: #222222;
+}
+
+//індикатор кількості
+.rs-picker-value-count {
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #dba77b;
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+  @include mobile {
+    display: block;
+  }
+}
+
+//кнопка очищення
+.rs-picker-clean {
+  position: absolute;
+  top: 50% !important;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+//індикатор відкривання
+.rs-picker-toggle-indicator {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #e3e3e3;
+  & .rs-picker-clean {
+    right: 0px !important;
+  }
+}
+
+// Hover \focus
+.rs-picker-toggle:hover {
+  border-color: #dba77b !important;
+}
+
+.rs-picker-toggle:focus {
+  border-color: #dba77b !important;
+}
+
+.rs-picker-toggle.rs-picker-toggle-active {
+  border-color: #dba77b !important;
+}
+
+.rs-anim-fade.rs-anim-in.rs-picker-check-menu.rs-picker-popup {
+  max-height: 250px;
+  position: absolute;
+  top: 10px;
+  @include md {
+    max-height: 150px;
+  }
+
+  @include mobile {
+    width: calc(100% - 64px);
+    & .rs-picker-check-menu {
+      width: 100%;
+    }
+  }
+}
+
+.rs-picker-check-menu.rs-picker-check-menu-items {
+  @include custom-scrollbar(#dba77b);
+}
+
+//стилі для ітем в фокусі
+.rs-check-item.rs-check-item-focus {
+  background-color: white;
+  color: inherit;
+}
+
+
+.rs-check-item.rs-checkbox {
+  //обраний елемент
+  &.rs-checkbox-checked {
+    .rs-checkbox-checker {
+      .rs-checkbox-label {
+        color: $color-brown;
+      }
+      .rs-checkbox-control {
+        .rs-checkbox-inner {
+          &::before {
+            background-color: $color-brown;
+            border: 1px solid $color-brown;
+          }
+        }
+      }
+      
+    }
+  }
+  //не обраний елемент
+  .rs-checkbox-checker {
+    label{
+      &:hover{
+        background-color: $color-white;
+      }
+    }
+    cursor: pointer;
+    &:hover {
+      .rs-checkbox-label {
+        color: $color-brown;
+      }
+      .rs-checkbox-control {
+        .rs-checkbox-inner {
+          &::before {
+           // background-color: $color-brown;
+            border: 1px solid $color-brown;
+          }
+        }
+      }
+    }
+  }
+}
+
+.rs-picker-list-item {
+  .rs-checkbox-label {
+    font-size: 14px !important;
+    color: #222;
+  }
+}
+
+.custom-checkpicker-container-mob{
+  position: relative;
+  .rs-picker-list-item{
+    position: absolute;
+    top: 10px;
+  }
+}

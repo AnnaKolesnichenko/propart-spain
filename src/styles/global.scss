@@ -1,0 +1,60 @@
+@import './variable';
+@import './mixins';
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  max-width: 100vw;
+  font-size: 16px;
+  font-weight: 400;
+  color: $color-black;
+  &.disable-scroll {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden !important;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: transparent;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+  min-width: 360px;
+  padding: 0 64px;
+  @media screen and (max-width: 1024px) {
+    padding: 0 16px;
+  }
+}
+
+//reverce blocks in home page
+.reverce-phone {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  @include mobile {
+    flex-direction: column-reverse;
+  }
+}
+
+// Disable scrolling when open mobile filters
+.no-scroll {
+  position: fixed !important;
+}

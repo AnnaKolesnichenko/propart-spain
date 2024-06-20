@@ -1,0 +1,134 @@
+{
+  "hero": {
+    "h1": "Top-Immobilien an der Costa del Sol",
+    "description": "Finden Sie Ihr Traumhaus mit Property Partners",
+    "filter-select": "Wählen Sie Ihre Region",
+    "filter-radio1": "Neubau",
+    "filter-radio2": "Sonderangebot",
+    "filter-submit": "Zeigen Sie mir Immobilien"
+  },
+  "top-projects": {
+    "title": "Top-Projekte",
+    "description": "Malaga, eingebettet entlang der von der Sonne geküssten Küsten der Costa del Sol, ist eine faszinierende Stadt, die reiche Geschichte mühelos mit modernem Charme verbindet. Als Geburtsort des renommierten Künstlers Pablo Picasso präsentiert Malaga ein kulturelles Geflecht, das von künstlerischer Lebendigkeit durchwoben ist."
+  },
+  "areas": {
+    "map-description": "Malaga, eingebettet entlang der von der Sonne geküssten Küsten der Costa del Sol, ist eine faszinierende Stadt, die reiche Geschichte mühelos mit modernem Charme verbindet.",
+    "project1-description": "Bekannt für seine faszinierende Altstadt, atemberaubende Strände und lebendige Kulturszene, ist Estepona zu einem immer beliebteren Ziel für Touristen und Expatriates geworden, die den authentischen spanischen Lebensstil suchen.",
+    "project1-price": "Ab EUR 2,3 Mio.",
+    "project1-best-for": "Am besten für Investitionen geeignet",
+    "project1-airport": "55 Minuten zum Flughafen Malaga",
+
+    "project2-description": "Die Vorteile von Mijas Costa umfassen ruhige Wohngegenden in unmittelbarer Nähe der belebten Resorts von Marbella und Fuengirola; ausgezeichnete Dienstleistungen und Einrichtungen; sowie eine gute Auswahl an Immobilien, oft zu erschwinglicheren Preisen als in der Nähe von Marbella. Mijas Costa ist als familienfreundlicher Urlaubsort oder Wohnort bekannt.",
+    "project2-price": "Ab EUR 100.000",
+    "project2-best-for": "Am besten zum Wohnen geeignet",
+    "project2-airport": "20 Minuten zum Flughafen Malaga",
+
+    "project3-description": "Bekannt für seine faszinierende Altstadt, atemberaubende Strände und lebendige Kulturszene, ist Estepona zu einem immer beliebteren Ziel für Touristen und Expatriates geworden, die den authentischen spanischen Lebensstil suchen.",
+    "project3-price": "Ab EUR 2,3 Mio.",
+    "project3-best-for": "Am besten für Investitionen geeignet",
+    "project3-airport": "55 Minuten zum Flughafen Malaga",
+
+    "project4-description": "Mit vielen Golfplätzen und exklusiven Wohnanlagen ist Benahavis aufgrund seiner natürlichen Umgebung und einer sehr geringen Bebauungsdichte äußerst begehrt als Ort zum Immobilienkauf an der Costa del Sol, insbesondere unter Ausländern, die einen Ort der Ruhe in unmittelbarer Nähe von Marbella suchen.",
+    "project4-price": "Ab EUR 1 Mio.",
+    "project4-best-for": "Am besten zum Wohnen geeignet",
+    "project4-airport": "20 Minuten zum Flughafen Malaga",
+
+    "project5-description": "Der Lebensstil in Fuengirola zeichnet sich durch eine harmonische Mischung aus Küstenentspannung, kultureller Vielfalt und lebendigem Stadtleben aus. Einwohner und Besucher genießen gleichermaßen einen Lebensstil, der den traditionellen Charme einer Küstenstadt nahtlos mit modernen Annehmlichkeiten verbindet und eine dynamische und vielfältige Umgebung schafft.",
+    "project5-price": "Ab EUR 200.000",
+    "project5-best-for": "Am besten für Investitionen geeignet",
+    "project5-airport": "20 Minuten zum Flughafen Malaga"
+  },
+  "attention": {
+    "title": "Mit Aufmerksamkeit für jedes Detail",
+    "description": "Jede Immobilie wurde sorgfältig ausgewählt für ihre einzigartige Mischung aus Eleganz, Komfort und Raffinesse und bietet ein unvergleichliches Wohnerlebnis. Tauchen Sie ein in das Epizentrum des Luxus mit atemberaubenden Ausblicken, hochmodernen Annehmlichkeiten und maßgeschneiderten Innenräumen, die für diejenigen entworfen wurden, die das Feinste im Leben zu schätzen wissen.",
+    "exclusive": "Exklusive Auswahl von Property Partners",
+    "button": "Holen Sie sich hier die spezielle Kollektion",
+    "button-mob": "Spezielle Sammlung hier erhalten",
+    "title-mob": "Auswahl an Projekten für den Erhalt der spanischen Residenz"
+  },
+  "our-services": {
+    "title1": "unsere",
+    "title2": "Dienstleistungen",
+    "description": "Wir bieten eine breite Palette von Dienstleistungen mit unseren Partnern an",
+
+    "insurance": "Versicherung",
+    "insurance-text": "Schutz für Ruhe und Sicherheit",
+
+    "mortgage": "Hypothek",
+    "mortgage-text": "Finanzierung für alle Bedürfnisse zu Hause.",
+
+    "legal-services": "Rechtsberatung",
+    "legal-services-text": "Beratung",
+
+    "construction": "Bauwesen",
+    "construction-text": "Innovative und nachhaltige Lösungen",
+
+    "real-estate": "Immobilien",
+    "real-estate-text": "Kaufen, Verkaufen und Verwalten",
+
+    "golden-visa": "Goldene Visa",
+    "golden-visa-text": "Ganzjährige Aufenthaltserlaubnis über das Goldene Visum."
+  },
+  "projects": {
+    "project1-title": "Immobilien kaufen",
+    "project1-description": "Kaufen Sie ein Traumhaus für das Leben oder als Investition mit Property Partners",
+    "project2-title": "Bau-Dienstleistungen",
+    "project2-description": "Alle Arten von Renovierungsarbeiten, Design, Bau von Villen und großen Projekten",
+    "project3-title": "Rechtsberatung",
+    "project3-description": "Unsere Experten können bei der Erlangung einer Aufenthaltsgenehmigung, der Registrierung eines Unternehmens und anderen helfen",
+    "project4-title": "Concierge-Service",
+    "project4-description": "Erhalten Sie persönliche Unterstützung bei allen Ihren Bedürfnissen vom Fahrer bis zum Babysitter",
+    "project5-title": "Goldenes Visum",
+    "project5-description": "Wir arrangieren alle Arten von Visa für Sie und Ihre Familie",
+    "project6-title": "Versicherung",
+    "project6-description": "Wir legen Wert darauf, Ihre Wertsachen zu schützen."
+  },
+  "zoom": {
+    "title": "Vereinbaren Sie sofort ein Zoom-Meeting mit unserem Agenten",
+    "name-input": "Ihr Name",
+    "phone-input": "Telefonnummer",
+    "button": "Zeit auswählen",
+    "error1": "Fehler1",
+    "error2": "Fehler2"
+  },
+  "requirements": {
+    "requirements-title": "Anforderungen für den Erhalt eines spanischen \"Goldenen Visums\"",
+    "requirements-description": "Neben der Investition sind die Voraussetzungen:",
+
+    "requirements1-title": "Visum",
+    "requirements1-description": "Der Inhaber dieses Visums hat auch das Recht, Aufenthaltsdokumente für seine Familie auszustellen",
+
+    "requirements2-title": "Bau",
+    "requirements2-description": "Das Unternehmen übernimmt Projekte verschiedener Etagen, von kleinen Privathäusern bis hin zu großen Wohnkomplexen.",
+
+    "requirements3-title": "Digitaler Nomade",
+    "requirements3-description": "Das digitale Nomadenvisum oder das Visum für digitale Nomaden wird in der heutigen Welt immer beliebter",
+
+    "requirements4-title": "Touristenlizenz",
+    "requirements4-description": "Eine Touristenlizenz in Spanien ist ein Schlüsseldokument für diejenigen, die ihre Immobilie an Kurzzeiturlauber vermieten möchten.",
+
+    "requirements5-title": "Concierge-Service",
+    "requirements5-description": "Unsere Fachleute kümmern sich um alle Aspekte der Verwaltung Ihrer Immobilie, von Vermietungen bis zur Wartung."
+  },
+  "requirements-list": {
+    "requirements-title": "Andere Dienstleistungen",
+
+    "requirements1-title": "Beratung",
+    "requirements1-description": "Vertrauen Sie uns für prägnante, ergebnisorientierte Lösungen, die Ihr Geschäft in der dynamischen Welt des Immobilienmarktes verbessern.",
+
+    "requirements2-title": "Rechtsberatung",
+    "requirements2-description": "Wir sind Experten in allen Bereichen, die mit dem Erwerb verschiedener Arten von Immobilien zusammenhängen: Bürogebäude, Einkaufszentren, Industrie usw.",
+
+    "requirements3-title": "Hypothek",
+    "requirements3-description": "Ihr Finanzierungspartner für Zuhause: Ob Sie ein Bewohner oder Nichtbewohner, Einzelperson oder Unternehmen sind",
+
+    "requirements4-title": "Versicherung",
+    "requirements4-description": "Schutz Ihrer Ruhe: Bei Insurance verstehen wir die Bedeutung, das zu schützen, was Ihnen am wichtigsten ist.",
+
+    "requirements5-title": "Studentenvisum",
+    "requirements5-description": "Ein Studentenvisum für Spanien ist ein wichtiges Dokument für alle, die vorhaben, an Bildungseinrichtungen dieses Landes für mehr als 180 Tage zu studieren.",
+
+    "requirements6-title": "Goldenes Visum",
+    "requirements6-description": "Das \"Goldene Visum\" ist eine Art Visum, das dem Investor das Recht gibt, das ganze Jahr über in Spanien zu leben."
+  }
+}

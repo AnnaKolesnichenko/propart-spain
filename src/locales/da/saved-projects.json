@@ -1,0 +1,16 @@
+{
+  "title": "Gemte projekter",
+  "description": "Del projekter med vores ekspert, og du vil modtage mere information om hver af dem",
+  "clear-all": "Ryd alle ejendomme",
+  "form-title": "Få personlige tilbud baseret på dine gemte projekter",
+  "no-selected": "Ingen projekter gemt",
+  "name-label": "Navn",
+  "name-placeholder": "Indtast dit navn",
+  "phone-label": "Fuldt telefonnummer",
+  "phone-placeholder": "Indtast dit telefonnummer",
+  "radio-label": "Hvornår er det bekvemt for dig at kommunikere",
+  "radio1": "Indtil kl. 12",
+  "radio2": "Efter kl. 12",
+  "radio3": "Tekst på WA",
+  "submit": "Send og åbn live chat med ekspert"
+}

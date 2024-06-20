@@ -1,0 +1,16 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+.projects-map__top-projects {
+  .top-projects {
+    position: relative;
+  }
+}
+.projects-map__areas {
+  margin-bottom: 32px;
+  margin-top: 48px;
+  h2 {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 36px;
+  }
+}

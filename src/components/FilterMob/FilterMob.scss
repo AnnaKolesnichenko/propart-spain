@@ -1,0 +1,167 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+
+.filter-mob {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .modal-content__filter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 20px 100px;
+    background-color: $color-background-menu;
+    width: 100%;
+    min-width: 360px;
+    overflow: auto;
+    height: 100%;
+    animation: modalAnimation 0.5s ease-in-out forwards;
+
+    .filters-block-mob-header {
+      display: flex;
+      justify-content: space-between;
+      .filters-block-mob-header-close {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: $color-white;
+        box-shadow: 0 4px 42.5px #00000014;
+      }
+      .filters-block-mob-clear-filter {
+        display: inline-flex;
+        height: 40px;
+        padding: 0 12px 0 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        color: #ff5959;
+        text-align: center;
+        font-family: Onest;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        border-radius: 11px;
+        border: 1px solid #ff5959;
+        background: #ff595933;
+        cursor: pointer;
+      }
+    }
+    .filters-block-mob-title {
+      font-size: 36px;
+      font-weight: 500;
+      margin: 24px 0;
+    }
+    .filter-block-mob-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      //радіо кнопки
+      .filter-block-mob-form-radio {
+        & .hero-form-buttons {
+          margin: 0;
+          gap: 16px;
+          .middle {
+            display: none;
+          }
+          & .form-button {
+            background-color: $color-white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            color: #676767;
+            font-size: 12px;
+            font-weight: 400;
+            &.active {
+              border: 1px solid $color-brown;
+              color: $color-brown;
+              & .radio {
+                border: 6px solid $color-brown;
+              }
+            }
+            & .radio {
+              width: 20px;
+              height: 20px;
+              border: 3px solid #ccc;
+              &.active {
+                border: 4px solid $color-brown;
+              }
+            }
+          }
+        }
+      }
+      .search-mob {
+        .map-search-block-form {
+          border-radius: 8px;
+          border: 1px solid #ccc;
+          width: calc(100% - 50px);
+          .search-icon {
+            width: 42px;
+            height: 40px;
+            position: absolute;
+            right: -50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $color-brown;
+            border-radius: 8px;
+            color: $color-white;
+            svg {
+              width: 15;
+              height: 15;
+            }
+          }
+        }
+        .map-search-block-searchList {
+          border-radius: 8px;
+        }
+      }
+      .dropdown-mob {
+        position: relative;
+        height: 48px;
+        .custom-checkpicker-container-mob {
+          height: 48px;
+        }
+        & .custom-checkpicker {
+          width: 100%;
+          height: 48px;
+        }
+        .rs-picker-toggle {
+          border: 1px solid #ccc;
+        }
+      }
+
+      //кнопка submit
+      .filters-block-mob-submit {
+        display: flex;
+        height: 48px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        color: $color-white;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.19);
+        background: #dba77b;
+        -webkit-backdrop-filter: blur(11.3999996185px);
+        backdrop-filter: blur(11.3999996185px);
+        & svg {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: 14px;
+        }
+      }
+    }
+  }
+}

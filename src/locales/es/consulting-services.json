@@ -1,0 +1,161 @@
+{
+  "pageTitle": "Legal services",
+  "pageDescription": "This content contains real time information about legal services in Spain",
+  "sections": {
+    "realEstate": {
+      "title": "We are experts in all areas related to the acquisition of various types of real estate",
+      "description": "We have knowledge and expertise in the legal and tax aspects related to both sales and acquisitions, as well as financing and establishing guarantees.",
+      "competenciesTitle": "Our competencies include:",
+      "competencies": [
+        {
+          "title": "Legal advice on real estate transactions",
+          "description": "We provide expert legal advice in real estate transactions, including legal analysis and transaction structuring."
+        },
+        {
+          "title": "Tax Counseling",
+          "description": "We provide tax advice in the context of acquiring and owning real estate, helping to optimize clients' tax liability."
+        },
+        {
+          "title": "Financing and Guarantees",
+          "description": "We provide support in financing for real estate acquisitions and establishing appropriate guarantees."
+        },
+        {
+          "title": "Risk Assessment",
+          "description": "We analyze the risks of real estate transactions and provide recommendations to mitigate them."
+        },
+        {
+          "title": "Commercial Negotiations",
+          "description": "We participate in commercial negotiations with counterparties and other parties to transactions."
+        },
+        {
+          "title": "Transaction support",
+          "description": "We provide full legal support of the transaction process, including preparation of documents, conclusion of contracts and registration of transactions."
+        },
+        {
+          "title": "Funding Organization",
+          "description": "We assist in arranging financing for real estate transactions, including dealing with financial institutions and legalizing transactions."
+        }
+      ],
+      "commitment": "We are committed to ensuring that our clients fully understand the legal and tax aspects involved in real estate acquisitions and provide a comprehensive solution for successful transactions."
+    },
+    "taxAdvice": {
+      "title": "Tax, financial and accounting advice",
+      "description": "We work with individuals and businesses, residents and non-residents, assisting them in their day-to-day operations, providing tax filing, tax and financial counseling, as well as bookkeeping and administration.",
+      "optimization": "In order to optimize the tax situation of our clients and to be aware of the need to keep up to date with current tax and accounting legislation in the personal and business sphere, we have tax advisors who explore new opportunities for tax optimization in various situations.",
+      "servicesTitle": "Our services include:",
+      "services": [
+        "Tax, financial and accounting consulting for individuals and legal entities.",
+        "Representation of foreign companies in Spain.",
+        "Declarations of liabilities to tax authorities for individuals and legal entities.",
+        "Corporate income tax and value added tax.",
+        "Calculation of withholdings.",
+        "Income and asset declarations for non-resident individuals.",
+        "Tax planning for companies and individuals.",
+        "Advice on corporate restructuring processes.",
+        "Real estate taxation.",
+        "Advice on inheritance tax planning.",
+        "Representing and conducting cases before the Internal Revenue Service.",
+        "Preparation and legalization of books of accounts and annual reports.",
+        "Interaction with banks, notaries, the Register of Real Estate and Commerce, and other government agencies."
+      ]
+    },
+    "companyAdministration": {
+      "title": "Company administration",
+      "description": "Our approach is aimed at providing our clients with a comprehensive solution for effective company management.",
+      "administrativeServices": "We provide a range of services including making payments, maintaining leases, paying local and state taxes, fees, insurance, and other bills such as construction fees, with full legal, tax and accounting support. In addition to these administrative services, we provide legal, tax and accounting support to ensure compliance with all applicable regulations and rules.",
+      "servicesTitle": "Among the services provided are:",
+      "services": [
+        {
+          "title": "Carrying out Payments",
+          "description": "Take care of making payments on behalf of administered companies. This may include payments to suppliers, utilities, salaries and other expenses."
+        },
+        {
+          "title": "Maintaining Lease Agreements",
+          "description": "We manage and maintain leases on behalf of the company, ensuring that terms and agreements are adhered to."
+        },
+        {
+          "title": "Payment of Taxes and Duties",
+          "description": "Assume the obligation to pay local and state taxes and other applicable fees, ensuring compliance with the community's tax obligations."
+        },
+        {
+          "title": "Insurance Management",
+          "description": "We handle premium payments and policy issues, ensuring adequate insurance and public protection."
+        },
+        {
+          "title": "Other Accounts",
+          "description": "Manage and make payments related to other accounts, such as construction work or other specific society expenses."
+        }
+      ]
+    },
+    "laborLaw": {
+      "title": "Labor law",
+      "description": "Due to the complexity of employment and social security law, Legal Advice on labor issues, whether at the outset, during the course of the employment relationship or at its termination, has become increasingly important from the perspective of both employer and employee. We are committed to providing a full range of employment and social security law services to ensure effective, law abiding employment relationships within an organization.",
+      "servicesTitle": "Among the services provided are:",
+      "services": [
+        {
+          "title": "Legal advice on labor law and Management of Labor Relations in companies",
+          "description": "Provide expert consulting and management of labor relations in companies, and regulate issues of human resources management."
+        },
+        {
+          "title": "Social and Labor Audience",
+          "description": "We carry out social labor audits, providing a comprehensive assessment of the social and labor situation in the organization."
+        },
+        {
+          "title": "Postponements",
+          "description": "Our team provides support for tax and contribution deferrals."
+        },
+        {
+          "title": "Representation in Labor Courts",
+          "description": "We provide representation in Labor Courts, protecting clients' interests in legal disputes."
+        },
+        {
+          "title": "Consolidations",
+          "description": "We assist with conciliation procedures, seeking to resolve labor disputes in an amicable manner."
+        },
+        {
+          "title": "Collective Labor Conflicts",
+          "description": "Our team is dedicated to resolving collective labor disputes."
+        },
+        {
+          "title": "Regulation of Employment Resolution Procedures (ERES and ERTES)",
+          "description": "We provide services for employment settlement procedures such as collective redundancies and temporary reductions in hours."
+        },
+        {
+          "title": "Representation before trade unions / Collective agreements",
+          "description": "We represent clients before labor unions and participate in collective bargaining negotiations."
+        },
+        {
+          "title": "Manage payroll, contracts, and more",
+          "description": "We provide payroll management, contract drafting and other labor relations services."
+        },
+        {
+          "title": "Process and draft labor contracts and renewals",
+          "description": "We handle the processing and drafting of labor contracts and their renewals."
+        },
+        {
+          "title": "Processing of retirement procedures, disability benefits, etc.",
+          "description": "We provide services to process retirement, disability benefits and other aspects of Social Security."
+        },
+        {
+          "title": "Alien Migration Issues",
+          "description": "We also provide advice and services on migration aspects for foreign workers."
+        }
+      ]
+    },
+    "bankAccount": {
+      "title": "Opening a bank account",
+      "description": "Opening a bank account in Spain for a non-resident with Property Partners:",
+      "content": "If you are looking for professional advice and assistance in opening a bank account in Spain as a non-resident, our experts will not only provide you with the information you need, but also provide full support in the account opening process, including collecting all the necessary documents, including sworn translations, and accompanying you to the bank.",
+      "difficulty": "Due to the tightening of anti-money laundering policies and changes in banking legislation, opening a bank account in Spain for non-residents is becoming increasingly difficult. Successful account opening depends on the loyalty of a particular bank and we offer our expertise to facilitate this process.",
+      "support": "We cooperate with reliable banks and provide our clients with support at all stages of opening an account in Spain, including:",
+      "steps": [
+        "Consultation on all aspects of the account opening procedure.",
+        "Assistance in gathering the necessary documents.",
+        "Organizing sworn translations of documents.",
+        "Accompanying you to the bank to sign the bank account agreement."
+      ],
+      "note": "Note: The cost of sworn translations is charged separately.",
+      "additionalQuestions": "If you have additional questions or need more information, leave a request online and we will contact you shortly for a consultation."
+    }
+  }
+}

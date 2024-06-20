@@ -1,0 +1,31 @@
+{
+  "search_placeholder": "Type name",
+  "search_list_error": "No results, try another query",
+
+  "type_title": "Type",
+  "type_options": {
+    "Apartment": "Apartment",
+    "Townhouse": "Townhouse",
+    "Villa": "Villa",
+    "Duplex": "Duplex",
+    "Flat": "Flat",
+    "Penthouse": "Penthouse",
+    "Ground floor": "Ground floor"
+  },
+
+  "beds_title": "Beds",
+  "beds_room": "Studio",
+
+  "price_title": "Price",
+
+  "size_title": "Size",
+
+  "area_title": "Area",
+
+  "clean": "Clear",
+
+  "mob_title": "Filter",
+  "mob_clear": "Clear filter",
+  "mob_submit": "Apply filter"
+}
+

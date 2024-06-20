@@ -1,0 +1,63 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 64px;
+
+  @include laptop {
+    gap: 30px;
+  }
+}
+
+.list-link {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.active-home {
+  color: $color-gray;
+}
+
+.active-notHome {
+  color: $color-brown;
+}
+
+.list-link__home {
+  color: $color-white;
+  transition: $transition;
+
+  &:hover {
+    color: $color-gray;
+  }
+}
+
+.list-link__notHome {
+  position: relative;
+  color: $color-link;
+  transition: $transition;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: $color-brown;
+    transform: scaleX(0);
+    transition: transform 0.25s ease-in-out;
+    transform-origin: left;
+  }
+
+  &:hover {
+    color: $color-brown;
+
+    &::after {
+      transform: scaleX(1);
+    }
+  }
+}

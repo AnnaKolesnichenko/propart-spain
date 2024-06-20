@@ -1,0 +1,35 @@
+@mixin mobile {
+  @media only screen and (max-width: 767px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media only screen and (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media screen and (max-width: 1439px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media screen and (max-width: 1919px) {
+    @content;
+  }
+}
+
+.areas {
+  padding: 35px 64px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+  background-color: white;
+
+  @include tablet {
+    padding: 35px 16px;
+  }
+}

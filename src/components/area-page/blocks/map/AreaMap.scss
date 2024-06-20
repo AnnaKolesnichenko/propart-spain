@@ -1,0 +1,107 @@
+@import "./../../../../styles/mixins";
+
+.area__map-block {
+    display: flex;
+    height: 100%;
+    min-height: 485px;
+    gap: 50px;
+
+    @include rwd_max(1240px) {
+        gap: 25px;
+    }
+
+    @include lg {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .area__location-info {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-between;
+
+        .section-title {
+            font-size: 28px;
+        }
+
+        .loaction-text {
+            font-weight: 400;
+            font-size: 16px;
+            color: #717171;
+        }
+    }
+
+    .area__map {
+        border-radius: 12px;
+        overflow: hidden;
+        flex: 2;
+        box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.05);
+
+        @include lg {
+            flex: auto;
+            height: 300px;
+        }
+
+        @include md {
+            display: none;
+        }
+    }
+}
+
+.map-loader {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+
+    .loader {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        position: relative;
+
+        animation: rotate 1s linear infinite;
+
+        &::before {
+            content: "";
+            box-sizing: border-box;
+            position: absolute;
+            inset: 0px;
+            border-radius: 50%;
+            border: 5px solid #f88e37;
+            animation: prixClipFix 2s linear infinite;
+        }
+    }
+
+    @keyframes rotate {
+        100% {
+            transform: rotate(360deg)
+        }
+    }
+
+    @keyframes prixClipFix {
+        0% {
+            clip-path: polygon(50% 50%, 0 0, 0 0, 0 0, 0 0, 0 0)
+        }
+
+        25% {
+            clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 0, 100% 0, 100% 0)
+        }
+
+        50% {
+            clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%)
+        }
+
+        75% {
+            clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%)
+        }
+
+        100% {
+            clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0)
+        }
+    }
+}

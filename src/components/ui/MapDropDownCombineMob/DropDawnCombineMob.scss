@@ -1,0 +1,57 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+.dropdown-combine-mob-container {
+  display: flex;
+  justify-content: space-between;
+  > .dropdown-combine-mob-block-container{
+    width: calc(50% - 8px);
+  }
+  // SUB MENU
+  .custom-dropdawn-container {
+    width: 100%;
+    .custom-dropdawn {
+      border-radius: 10px;
+      width: 100%;
+      //кнопка
+      .rs-dropdown-toggle {
+        border: 1px solid #cccccc;
+        border-radius: 8px;
+        color: #222222;
+        width: 100%;
+        height: 48px;
+        background-color: $color-white;
+        margin-top: 5px;
+      }
+
+      .rs-dropdown-menu {
+        min-width: 100%;
+        width: auto;
+        max-height: 130px;
+        @include custom-scrollbar(#dba77b);
+      }
+    }
+  }
+
+  .rs-btn-ghost {
+    color: #222222;
+  }
+
+  .rs-btn-ghost:focus,
+  .rs-btn-ghost:hover {
+    border-color: #dba77b !important;
+    box-shadow: none;
+    color: #222222;
+  }
+
+  .rs-btn-ghost.rs-picker-toggle-active {
+    border-color: #dba77b !important;
+  }
+  .manual__toggler{
+    & button{
+      width: 25px;
+      height: 25px;
+      margin-left: 5px;
+    }
+    
+  } 
+}

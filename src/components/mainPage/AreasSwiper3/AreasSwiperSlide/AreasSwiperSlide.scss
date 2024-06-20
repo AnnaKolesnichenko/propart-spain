@@ -1,0 +1,129 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+
+.main-swiper-section-slide {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+
+  @include mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .text {
+    color: $color-white;
+    z-index: 10;
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    padding-right: 24px;
+    @include tablet {
+      bottom: 16px;
+      left: 16px;
+    }
+    @include mobile {
+      position: static;
+      -webkit-position: static;
+      color: $color-black;
+      margin-bottom: 24px;
+    }
+    .title-block {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      .title {
+        font-size: 48px;
+        font-weight: 500;
+        @include laptop {
+          font-size: 24px;
+        }
+        @include mobile {
+          color: $color-black;
+        }
+      }
+      .informations {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        @include tablet {
+          position: absolute;
+          bottom: 155px;
+        }
+        @include mobile {
+          bottom: 16px;
+          left: 16px;
+        }
+        .info {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          height: 35px;
+          padding: 10px;
+          border: 1px solid rgba(255, 255, 255, 0.17);
+          border-radius: 8px;
+          font-size: 14px;
+          background: rgba(255, 255, 255, 0.08);
+          color: $color-white;
+          &.price {
+            background-color: $color-brown;
+          }
+          @include tablet {
+            font-size: 12px;
+          }
+          @include mobile {
+            &:nth-child(3) {
+              display: none;
+            }
+          }
+          @media screen and (max-width: 450px) {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .description {
+      margin-top: 8px;
+      opacity: 0.8;
+      @include laptop {
+        font-size: 14px;
+      }
+      @include mobile {
+        color: $color-gray2;
+      }
+    }
+  }
+  .image-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: $transition;
+    &:hover {
+      transform: scale(1.01);
+    }
+    @include tablet {
+      height: 225px;
+    }
+    > img {
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .slide-bg {
+      z-index: 5;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 15.73%),
+        linear-gradient(183deg, rgba(0, 0, 0, 0) 53.29%, rgba(0, 0, 0, 0.8) 88.18%),
+        linear-gradient(175deg, rgba(0, 0, 0, 0.2) 10.74%, rgba(0, 0, 0, 0) 72.12%);
+    }
+  }
+}

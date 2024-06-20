@@ -1,0 +1,131 @@
+{
+  "hero": {
+    "h1": "Top Ejendomme På Costa Del Sol",
+    "description": "Find dit drømmehjem med Property Partners",
+    "filter-select": "Vælg dit område",
+    "filter-radio1": "Ny Bygning",
+    "filter-radio2": "Specielt Tilbud",
+    "filter-submit": "Find ejendomme til mig"
+  },
+  "top-projects": {
+    "title": "Top projekter",
+    "description": "Ligger langs de solbeskinnede kyster af Costa del Sol, er Malaga en fængslende by, der ubesværet blander rig historie med moderne charme. Som fødestedet for den berømte kunstner Pablo Picasso, viser Malaga et kulturelt tapet vævet med kunstnerisk livskraft."
+  },
+  "areas": {
+    "map-description": "Ligger langs de solbeskinnede kyster af Costa del Sol, er Malaga en fængslende by, der ubesværet blander rig historie.",
+    "project1-description": "Kendt for sin fængslende gamle by, fantastiske strande og levende kulturscene, er Estepona blevet en stadig mere populær destination for både turister og udlændinge, der søger den autentiske spanske livsstil.",
+    "project1-price": "Fra EUR 2,3M",
+    "project1-best-for": "Bedst til investering",
+    "project1-airport": "55 min til Malaga lufthavn",
+    "project2-description": "Fordelene ved Mijas Costa inkluderer rolige boligområder inden for nem rækkevidde af de travle resorts i Marbella og Fuengirola; fremragende tjenester og faciliteter; og et godt udvalg af ejendomme, ofte til mere overkommelige priser end nærliggende Marbella. Mijas Costa er kendt som et familievenligt sted at tage på ferie eller bo.",
+    "project2-price": "Fra EUR 100K",
+    "project2-best-for": "Bedst til at bo",
+    "project2-airport": "20 min til Malaga lufthavn",
+
+    "project3-description": "Kendt for sin fængslende gamle by, fantastiske strande og levende kulturscene, er Estepona blevet en stadig mere populær destination for både turister og udlændinge, der søger den autentiske spanske livsstil.",
+    "project3-price": "Fra EUR 2,3M",
+    "project3-best-for": "Bedst til investering",
+    "project3-airport": "55 min til Malaga lufthavn",
+
+    "project4-description": "Hjem til mange golfbaner og eksklusive boliger, de naturlige omgivelser kombineret med en meget lav bebyggelsestæthed betyder, at Benahavis er meget eftertragtet som et sted at købe ejendom på Costa del Sol, især blandt udlændinge, der leder efter et tilflugtssted med fred og ro inden for nem rækkevidde af Marbella.",
+    "project4-price": "Fra EUR 1M",
+    "project4-best-for": "Bedst til at bo",
+    "project4-airport": "20 min til Malaga lufthavn",
+
+    "project5-description": "Livsstilen i Fuengirola er karakteriseret ved en harmonisk blanding af kystafslapning, kulturel rigdom og levende byliv. Beboere og besøgende nyder en livsstil, der ubesværet kombinerer den traditionelle charme af en kystby med moderne bekvemmeligheder, hvilket skaber et dynamisk og mangfoldigt miljø.",
+    "project5-price": "Fra EUR 200K",
+    "project5-best-for": "Bedst til investering",
+    "project5-airport": "20 min til Malaga lufthavn"
+  },
+  "attention": {
+    "title": "Med opmærksomhed på hver detalje",
+    "description": "Hver ejendom er nøje udvalgt for sin unikke blanding af elegance, komfort og sofistikering, der tilbyder en uovertruffen leveoplevelse. Fordyb dig i luksusens essens med betagende udsigter, topmoderne faciliteter og skræddersyede interiører designet til dem, der værdsætter de finere ting i livet.",
+    "exclusive": "Eksklusivt udvalg fra Property Partners",
+    "button": "Få specialudvalget her",
+    "button-mob": "Download udvalget",
+    "title-mob": "Udvalg af projekter til opnåelse af spansk opholdstilladelse"
+  },
+  "our-services": {
+    "title1": "vores",
+    "title2": "tjenester",
+    "description": "Vi tilbyder en bred vifte af tjenester med vores partnere",
+    "insurance": "Forsikring",
+    "insurance-text": "Sikkerhed og tryghed",
+
+    "mortgage": "Realkreditlån",
+    "mortgage-text": "Boligfinansiering til alle behov.",
+
+    "legal-services": "Juridiske tjenester",
+    "legal-services-text": "Rådgivning",
+
+    "construction": "Byggeri",
+    "construction-text": "Innovative og bæredygtige løsninger",
+
+    "real-estate": "Ejendom",
+    "real-estate-text": "Køb, sælg og administrer",
+
+    "golden-visa": "Golden visa",
+    "golden-visa-text": "Året rundt ophold via Golden Visa."
+  },
+  "projects": {
+    "project1-title": "Køb ejendom",
+    "project1-description": "Køb et drømmehus til liv eller investering med Property Partners",
+    "project2-title": "Byggetjenester",
+    "project2-description": "Alle former for renoveringsarbejde, design, opførelse af villaer og store projekter",
+    "project3-title": "Juridiske tjenester",
+    "project3-description": "Vores eksperter kan hjælpe med at få opholdstilladelse, registrere virksomhed og andet",
+    "project4-title": "Concierge service",
+    "project4-description": "Få personlig assistance med alle dine behov fra chauffør til babysitter",
+    "project5-title": "Golden Visa",
+    "project5-description": "Vi arrangerer alle typer visum for dig og din familie",
+    "project6-title": "Forsikring",
+    "project6-description": "Vi prioriterer at beskytte dine værdigenstande."
+  },
+  "zoom": {
+    "title": "Arranger øjeblikkelig Zoom-møde med vores agent",
+    "name-input": "Dit navn",
+    "phone-input": "Telefonnummer",
+    "button": "Vælg tidspunkt",
+    "error1": "fejl1",
+    "error2": "fejl2"
+  },
+  "requirements": {
+    "requirements-title": "Krav for at opnå et spansk 'Golden Visa'",
+    "requirements-description": "Ud over investeringen er forudsætningerne:",
+    "requirements1-title": "Visum",
+    "requirements1-description": "Indehaveren af dette visum har også ret til at udstede opholdsbeviser for sin/hans familie",
+
+    "requirements2-title": "Byggeri",
+    "requirements2-description": "Virksomheden påtager sig projekter af forskellig art, fra små private hjem til store boligkomplekser.",
+
+    "requirements3-title": "Digital nomade",
+    "requirements3-description": "Digital nomade visum, eller visum for digitale nomader, bliver stadig mere populært i dagens verden",
+
+    "requirements4-title": "Turistlicens",
+    "requirements4-description": "En turistlicens i Spanien er et nøgle dokument for dem, der ønsker at udleje deres ejendom til korttids turister.",
+
+    "requirements5-title": "Concierge Service",
+    "requirements5-description": "Vores fagfolk tager sig af alle aspekter af forvaltningen af din ejendom, fra udlejning til vedligeholdelse."
+  },
+  "requirements-list": {
+    "requirements-title": "Andre tjenester",
+
+    "requirements1-title": "Rådgivning",
+    "requirements1-description": "Stol på os for præcise, resultatdrevne løsninger, der løfter din forretning i den dynamiske verden af ejendom.",
+
+    "requirements2-title": "Juridiske tjenester",
+    "requirements2-description": "Vi er eksperter inden for alle områder relateret til erhvervelse af forskellige typer ejendom: kontorbygninger, indkøbscentre, industri mv.",
+
+    "requirements3-title": "Realkreditlån",
+    "requirements3-description": "Din Boligfinansieringspartner: Uanset om du er bosiddende eller ikke-bosiddende, individ eller virksomhed",
+
+    "requirements4-title": "Forsikring",
+    "requirements4-description": "Beskyttelse af din tryghed: Hos Forsikring forstår vi vigtigheden af at beskytte det, der betyder mest for dig.",
+
+    "requirements5-title": "Studievisum",
+    "requirements5-description": "Studievisum til Spanien er et vigtigt dokument for alle, der planlægger at studere på uddannelsesinstitutioner i dette land i mere end 180 dage.",
+
+    "requirements6-title": "Guldvisum",
+    "requirements6-description": "'Guldvisum' er en type visum, der giver investoren ret til at bo i Spanien hele året."
+  }
+}

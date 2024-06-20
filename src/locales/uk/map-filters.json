@@ -1,0 +1,30 @@
+{
+  "search_placeholder": "Введіть назву",
+  "search_list_error": "Результати відсутні, спробуйте інший запит",
+
+  "type_title": "Тип житла",
+  "type_options": {
+    "Apartment": "Апартаменти",
+    "Townhouse": "Таунхаус",
+    "Villa": "Вілла",
+    "Duplex": "Дуплекс",
+    "Flat": "Квартира",
+    "Penthouse": "Пентхаус",
+    "Ground floor": "Перший поверх"
+  },
+
+  "beds_title": "К-ть кімнат",
+  "beds_room": "Студія",
+
+  "price_title": "Вартість",
+
+  "size_title": "Розмір",
+
+  "area_title": "Район",
+
+  "clean": "Очистити",
+  
+  "mob_title": "Фільтр",
+  "mob_clear": "Очистити фільтр",
+  "mob_submit": "Застосувати фільтр"
+}

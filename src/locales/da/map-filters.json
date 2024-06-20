@@ -1,0 +1,30 @@
+{
+  "search_placeholder": "Indtast navn",
+  "search_list_error": "Ingen resultater, prøv en anden forespørgsel",
+
+  "type_title": "Type",
+  "type_options": {
+    "Apartment": "Lejlighed",
+    "Townhouse": "Byhus",
+    "Villa": "Villa",
+    "Duplex": "Duplex",
+    "Flat": "Lejlighed",
+    "Penthouse": "Penthouse",
+    "Ground floor": "Stueetage"
+  },
+
+  "beds_title": "Senge",
+  "beds_room": "Studio",
+
+  "price_title": "Pris",
+
+  "size_title": "Størrelse",
+
+  "area_title": "Område",
+
+  "clean": "Ryd",
+
+  "mob_title": "Filtrer",
+  "mob_clear": "Ryd filter",
+  "mob_submit": "Anvend filter"
+}

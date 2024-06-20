@@ -1,0 +1,64 @@
+{
+  "header": {
+    "navlink-home": "Hjem",
+    "navlink-properties": "Ejendomme",
+    "navlink-map": "Kort",
+    "navlink-areas": "Områder",
+    "navlink-consulting": "Rådgivning",
+    "navlink-visa": "Visum",
+    "navlink-legal-services": "Juridiske tjenester",
+    "navlink-construction": "Konstruktion",
+    "navlink-consierge": "Konsierge",
+    "navlink-mortgage": "Boliglån",
+
+    "link-in-header": "Find mig ejendom",
+    "btnSort": "Sorter",
+
+    "saved": "Gemt",
+    "tel": "Øjeblikkeligt opkald",
+    "filter": "Filtrer",
+    "call": "Ring op",
+    "map": "Kort",
+
+    "menu-mobile": "Menu",
+    "tel-mobile": "Ring nu"
+  },
+
+  "footer": {
+    "list-properties": "Køb ejendomme i Costa del Sol",
+    "list-properties-subtitle": "Køb ejendomme i",
+    "list-properties-1": "Marbella",
+    "list-properties-2": "Estepona",
+    "list-properties-3": "Benahavis",
+    "list-properties-4": "Fuengirola",
+    "list-properties-5": "Mijas",
+
+    "list-consulting": "Rådgivning og konsierge",
+    "list-consulting-subtitle": "Få hjælp til",
+    "list-consulting-1": "Visum",
+    "list-consulting-2": "Juridiske tjenester",
+    "list-consulting-3": "Forsikring",
+    "list-consulting-4": "Boliglån",
+    "list-consulting-5": "Nota simple",
+
+    "list-services": "Tjenester",
+    "list-services-subtitle": "Få hjælp til",
+    "list-services-1": "Visum",
+    "list-services-2": "Juridiske tjenester",
+    "list-services-3": "Forsikring",
+    "list-services-4": "Boliglån",
+    "list-services-5": "Nota simple",
+    "list-services-6": "Reparationer og møbler",
+    "list-services-7": "Vælg konstruktion",
+    "list-services-8": "Digital Nomand Visa",
+    "list-services-9": "Turistlicens",
+    "list-services-10": "Studievisum",
+
+    "location": "Pl. de la Iglesia, 3, kontor 1-D, 29670, San Pedro de Alcantara, Malaga",
+    "rights": "Alle rettigheder forbeholdes",
+    "privacyPolicy": "Privatlivspolitik",
+    "termsOfUse": "Brugsbetingelser",
+    "btnMap": "Gå til kort",
+    "btnProperty": "Find mig ejendom"
+  }
+}

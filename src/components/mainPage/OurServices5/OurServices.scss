@@ -1,0 +1,91 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+.our-services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 102px;
+  @include tablet {
+    display: none;
+  }
+  .title {
+    .large {
+      font-weight: 500;
+      font-size: 64px;
+      text-transform: uppercase;
+      @include laptop {
+        font-size: 48px;
+      }
+    }
+    .text {
+      font-weight: 300;
+      font-size: 14px;
+      color: $color-gray2;
+      max-width: 170px;
+      padding-bottom: 10px;
+      @include laptop {
+        font-size: 12px;
+        max-width: 190px;
+      }
+    }
+
+    .row {
+      display: flex;
+      align-items: flex-end;
+      gap: 24px;
+    }
+  }
+  .links {
+    .row {
+      display: flex;
+      justify-content: flex-end;
+      gap: 16px;
+      @include laptop {
+        gap: 12px;
+      }
+      &:first-child {
+        margin-bottom: 16px;
+        @include laptop {
+          margin-bottom: 12px;
+        }
+      }
+      .advantage {
+        display: flex;
+        height: 70px;
+        padding: 12px;
+        align-items: center;
+        border-radius: 8px;
+        background: $color-white;
+        gap: 16px;
+        box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.03);
+        border: 1px solid #f1f1f1;
+        transition: 0.3s;
+        transition: $transition;
+        &:hover {
+          background: $color-hover;
+        }
+        @include laptop {
+          padding: 8px;
+          gap: 12px;
+          height: 70px;
+        }
+        .text {
+          > span {
+            @include laptop {
+              font-size: 14px;
+            }
+          }
+          > p {
+            font-size: 14px;
+            color: $color-gray2;
+            opacity: 0.7;
+            font-weight: 300;
+            @include laptop {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

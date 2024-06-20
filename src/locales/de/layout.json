@@ -1,0 +1,64 @@
+{
+  "header": {
+    "navlink-home": "Startseite",
+    "navlink-properties": "Immobilien",
+    "navlink-map": "Karte",
+    "navlink-areas": "Gebiete",
+    "navlink-consulting": "Beratung",
+    "navlink-visa": "Visum",
+    "navlink-legal-services": "Rechtsberatung",
+    "navlink-construction": "Bau",
+    "navlink-consierge": "Concierge",
+    "navlink-mortgage": "Hypothek",
+
+    "link-in-header": "Immobilie finden",
+    "btnSort": "Sortieren",
+
+    "saved": "Gespeichert",
+    "tel": "Sofort anrufen",
+    "filter": "Filter",
+    "call": "Anrufen",
+    "map": "Karte",
+
+    "menu-mobile": "Menü",
+    "tel-mobile": "Jetzt anrufen"
+  },
+
+  "footer": {
+    "list-properties": "Immobilien kaufen an der Costa del Sol",
+    "list-properties-subtitle": "Immobilien kaufen in",
+    "list-properties-1": "Marbella",
+    "list-properties-2": "Estepona",
+    "list-properties-3": "Benahavis",
+    "list-properties-4": "Fuengirola",
+    "list-properties-5": "Mijas",
+
+    "list-consulting": "Beratung & Concierge",
+    "list-consulting-subtitle": "Hilfe erhalten bei",
+    "list-consulting-1": "Visum",
+    "list-consulting-2": "Rechtsberatung",
+    "list-consulting-3": "Versicherung",
+    "list-consulting-4": "Hypothek",
+    "list-consulting-5": "Nota simple",
+
+    "list-services": "Dienstleistungen",
+    "list-services-subtitle": "Hilfe erhalten bei",
+    "list-services-1": "Visum",
+    "list-services-2": "Rechtsberatung",
+    "list-services-3": "Versicherung",
+    "list-services-4": "Hypothek",
+    "list-services-5": "Nota simple",
+    "list-services-6": "Reparaturen und Einrichtungen",
+    "list-services-7": "Auswahl Bau",
+    "list-services-8": "Visum für digitale Nomaden",
+    "list-services-9": "Touristenlizenz",
+    "list-services-10": "Studentenvisum",
+
+    "location": "Pl. de la Iglesia, 3, Büro 1-D, 29670, San Pedro de Alcantara, Malaga",
+    "rights": "Alle Rechte vorbehalten",
+    "privacyPolicy": "Datenschutzbestimmungen",
+    "termsOfUse": "Nutzungsbedingungen",
+    "btnMap": "Zur Karte",
+    "btnProperty": "Immobilie finden"
+  }
+}

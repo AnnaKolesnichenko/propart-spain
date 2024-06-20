@@ -1,0 +1,38 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+.map-buttons {
+  position: absolute;
+  bottom: 11px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  @include mobile {
+    display: none;
+  }
+  .link,
+  .screen {
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    backdrop-filter: blur(11px);
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    background: rgba(69, 69, 69, 0.45);
+    color: $color-white;
+    transition: $transition;
+    &:hover {
+      background: rgba(69, 69, 69, 0.15);
+    }
+  }
+  .link {
+    width: 178px;
+  }
+  .screen {
+    width: 47px;
+  }
+}

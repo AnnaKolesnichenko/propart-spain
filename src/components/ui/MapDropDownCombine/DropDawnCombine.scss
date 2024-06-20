@@ -1,0 +1,141 @@
+@import '@/styles/variable';
+@import '@/styles/mixins';
+.custom-checkpicker-container-combi-map {
+  position: relative;
+  .custom-combine-dropdawn {
+    width: 100%;
+    border-radius: 10px;
+    > .rs-dropdown-toggle {
+      width: 100%;
+      height: 42px;
+      border: 1px solid #e3e3e3;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      align-items: center;
+
+      .rs-dropdown-toggle-caret {
+        position: static;
+      }
+    }
+
+    //основний випадаючий список
+    .rs-dropdown-menu {
+      min-width: 100%;
+      height: 340px;
+      padding: 0;
+      width: auto;
+      // border: 1px solid black;
+      background-color: transparent;
+      box-shadow: none;
+      //  background-color: aqua;
+      //частина вмпадаючого списка з кнопками
+      .rs-stack {
+        background-color: $color-white;
+        padding: 8px;
+        border-radius: 8px;
+        gap: 8px;
+        justify-content: space-between;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.06), 0 4px 4px rgba(0, 0, 0, 0.12);
+        .rs-stack-item {
+          min-width: 91px;
+          width: 100%;
+          //іконка для відкривання інпут для введення чисел
+          .manual__toggler {
+            button {
+              display: none;
+            }
+          }
+        }
+      }
+
+      label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+
+        .manual__toggler {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+
+          img {
+            vertical-align: baseline;
+          }
+        }
+      }
+    }
+  }
+
+  // SUB MENU
+  .custom-dropdawn-container {
+    width: 100%;
+    .custom-dropdawn {
+      border-radius: 10px;
+      width: 100%;
+      min-width: 90px;
+      .rs-dropdown-toggle {
+        border: 1px solid #cccccc;
+        border-radius: 8px;
+        color: #000;
+        width: 100%;
+        min-width: 90px;
+        .rs-dropdown-toggle-caret{
+          right: 6px;
+          top: 6px;
+        }
+      }
+
+      .rs-dropdown-menu {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.06), 0 4px 4px rgba(0, 0, 0, 0.12);
+        min-width: 100%;
+        width: auto;
+        background-color: $color-white;
+        height: auto;
+        padding: 6px 0;
+        // max-height: 250px;
+        //@include custom-scrollbar(#dba77b);
+        //overscroll-behavior: contain;
+
+        //додав контейнер щоб зменшити полосу скролу
+        .dropdown-list-container {
+          max-height: 250px;
+          @include custom-scrollbar(#dba77b);
+          //для запобігання скролу сторінки коли прокручуємо до кінця блоку
+          overscroll-behavior: contain;
+        }
+        //елемент списку
+        .rs-dropdown-item {
+          //.rs-dropdown-item-content {
+          // color: #000;
+          //}
+          &:hover {
+            background-color: transparent;
+            .rs-dropdown-item-content {
+              color: $color-brown;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .rs-btn-ghost {
+    color: #222222;
+  }
+
+  .rs-btn-ghost:focus,
+  .rs-btn-ghost:hover {
+    border-color: #dba77b !important;
+    box-shadow: none;
+    color: #222222;
+  }
+
+  .rs-btn-ghost.rs-picker-toggle-active {
+    border-color: #dba77b !important;
+  }
+}

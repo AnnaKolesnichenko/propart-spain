@@ -1,0 +1,82 @@
+@mixin mobile {
+  @media only screen and (max-width: 767px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media only screen and (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media screen and (max-width: 1439px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media screen and (max-width: 1919px) {
+    @content;
+  }
+}
+
+.project-image-card {
+  position: relative;
+  border-radius: 8px;
+  width: calc(68% - 16px);
+
+  @include laptop() {
+    width: 100%;
+  }
+
+  .slick-list {
+    gap: 10px;
+  }
+
+  .slick-slide {
+    position: relative;
+    border-radius: 8px;
+
+    .image-main {
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      height: 504px;
+
+      @include laptop() {
+        height: 390px;
+      }
+
+      &:hover,
+      &:active,
+      &:focus {
+        border: none;
+        outline: none;
+      }
+    }
+
+    .marked-icon {
+      position: absolute;
+      top: 17px;
+      right: 17px;
+    }
+
+    .all-photos {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      width: 111px;
+      height: 32px;
+      border-radius: 8px;
+      background-color: #aaa29a;
+      opacity: 0.8;
+      color: white;
+      font-size: 12px;
+      font-family: 'Inter', sans-serif;
+
+      @include mobile() {
+        display: none;
+      }
+    }
+  }
+}

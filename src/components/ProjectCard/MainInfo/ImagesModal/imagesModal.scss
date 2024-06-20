@@ -1,0 +1,59 @@
+// body {
+//   overflow: hidden;
+// }
+
+.img-backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  opacity: 1;
+  z-index: 100;
+}
+
+.img-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 20px 160px;
+  background: white;
+  z-index: 100;
+  overflow-y: auto;
+}
+
+.back-icon {
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.modal-images-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-left: auto;
+  overflow-y: auto;
+  padding-right: 20px;
+}
+
+.modal-images-item {
+  width: calc((100% - 20px) / 2);
+
+  .image-card {
+    border-radius: 8px;
+    width: 100%;
+  }
+}

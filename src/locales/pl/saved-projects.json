@@ -1,0 +1,21 @@
+{
+  "title": "Saved projects",
+  "description": "Share projects with our expert, and you`ll receive more information about each of them",
+  "clear-all": "Clear properties",
+  "form-title": "Get personal offers based on your saved projects",
+  
+  "no-selected": "No projects saved",
+
+  "name-label": "Name",
+  "name-placeholder": "Send your Name",
+
+  "phone-label": "Full number",
+  "phone-placeholder": "Send your Phone",
+
+  "radio-label": "What time is convenient for you to communicate",
+  "radio1": "Until 12 pm",
+  "radio2": "After 12 pm",
+  "radio3": "Text on WA",
+
+  "submit": "Send and open live chat with expert"
+}

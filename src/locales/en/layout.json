@@ -1,0 +1,64 @@
+{
+  "header": {
+    "navlink-home": "Home",
+    "navlink-properties": "Properties",
+    "navlink-map": "Map",
+    "navlink-areas": "Areas",
+    "navlink-consulting": "Consulting",
+    "navlink-visa": "Visa",
+    "navlink-legal-services": "Legal Services",
+    "navlink-construction": "Construction",
+    "navlink-consierge": "Consierge",
+    "navlink-mortgage": "Mortgage",
+
+    "link-in-header": "Find me property",
+    "btnSort": "Sort",
+
+    "saved": "Saved",
+    "tel": "Instant call",
+    "filter": "Filter",
+    "call": "Call",
+    "map": "Map",
+
+    "menu-mobile": "Menu",
+    "tel-mobile": "Call us Now"
+  },
+
+  "footer": {
+    "list-properties": "Buy properties in Costa de Sol",
+    "list-properties-subtitle": "Buy properties in",
+    "list-properties-1": "Marbella",
+    "list-properties-2": "Estepona",
+    "list-properties-3": "Benahavis",
+    "list-properties-4": "Fuengirola",
+    "list-properties-5": "Mijas",
+
+    "list-consulting": "Consulting & concierge",
+    "list-consulting-subtitle": "Get help with",
+    "list-consulting-1": "Visa",
+    "list-consulting-2": "Legal services",
+    "list-consulting-3": "Insurance",
+    "list-consulting-4": "Mortgage",
+    "list-consulting-5": "Nota simple",
+
+    "list-services": "Services",
+    "list-services-subtitle": "Get help with",
+    "list-services-1": "Visa",
+    "list-services-2": "Legal services",
+    "list-services-3": "Insurance",
+    "list-services-4": "Mortgage",
+    "list-services-5": "Nota simple",
+    "list-services-6": "Repairs and furnishings",
+    "list-services-7": "Select construction",
+    "list-services-8": "Digital Nomand Visa",
+    "list-services-9": "Tourist license",
+    "list-services-10": "Student visa",
+
+    "location": "Pl. de la Iglesia, 3, office 1-D, 29670, San Pedro de Alcantara, Malaga",
+    "rights": "All rights reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "btnMap": "Go to map",
+    "btnProperty": "Find me property"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "card": {
+    "link-home": "Startseite",
+    "link-properties": "Immobilien",
+    "link-card": "Oase",
+
+    "about": {
+      "from-price": "Ab",
+      "meter": "für",
+      "about-location": "Calle Cam, del Reloj",
+      "total-floors": "Gesamtetagen",
+      "type": "Typ",
+      "apartment": "Wohnung",
+      "flat": "Erdgeschosswohnung",
+      "floor": "Etage",
+      "size": "Größe",
+      "rooms": "Zimmer",
+      "contact-btn": "Kontaktieren Sie uns"
+    },
+
+    "description": {
+      "about-title": "Über das Projekt",
+      "description": [
+        "Oasis 325 – Phase 2 baut auf dem Erfolg des ursprünglichen Oasis 325-Projekts auf und bietet Wohnungen in Estepona. Wie sein Vorgänger profitiert auch Oasis 325 – Phase 2 von seiner erstklassigen Lage zwischen Marbella und Estepona. Innerhalb von nur 10 Minuten erreichen Sie erstklassige Golfplätze, den exotischen Selwo Park, zahlreiche Strandclubs, Restaurants, Geschäfte und andere Annehmlichkeiten.",
+        "Diese Phase umfasst 88 exklusive Wohnungen in Estepona, die durchdacht gestaltet sind, um das Sonnenlicht zu maximieren und den mediterranen Lebensstil zu verbessern. Die Entwicklung bietet eine Mischung aus 2- und 3-Zimmer-Einheiten, darunter Erdgeschosswohnungen mit Gärten und Penthouse-Wohnungen mit Solariums. Jede Wohnung verfügt über eine Garage und einen Abstellraum.",
+        "Das Innenlayout ist einzigartig gestaltet, um großzügige Wohnbereiche zu schaffen, die Innen- und Außenbereiche miteinander verbinden und das Tageslicht optimieren. Die offenen Küchen und Wohnbereiche öffnen sich zu weitläufigen Terrassen mit herrlichem Blick auf die umliegende Naturlandschaft.",
+        "Die Wohnungen sind aus hochwertigen Materialien gebaut und verfügen über einen unverwechselbaren architektonischen Stil, um ein außergewöhnliches Wohnerlebnis zu gewährleisten. Alle Einheiten genießen eine günstige Ausrichtung nach Süden."
+      ],
+      "show": "Mehr anzeigen",
+      "hide": "Ausblenden",
+      "amenities": "Annehmlichkeiten",
+      "amenity": [
+        "Fitnessstudio",
+        "Bank",
+        "Concierge",
+        "Aufzug",
+        "Grüne Bereiche",
+        "Klimaanlage",
+        "Privatpool",
+        "Abstellraum",
+        "Meerblick",
+        "Privatparkplatz",
+        "Privater Eingang",
+        "Einbauschränke",
+        "Garage"
+      ]
+    },
+    "related": {
+      "bedrooms": "Schlafzimmer",
+      "bedrooms-from": "ab",
+      "photo": "Foto",
+      "euro": "Euro",
+      "bed": "Bett",
+      "bathrooms": "Badezimmer",
+      "size": "Größe",
+      "floors": "Etagen",
+      "type-floors": "Art der Etagen",
+      "dwellings": "Wohneinheiten"
+    },
+
+    "legal": {
+      "golden-visa": "Goldene Visa",
+      "legal-services": "Rechtliche Dienstleistungen",
+      "insurance": "Versicherung",
+      "repairs-and-furnish": "Reparaturen und Einrichtungen",
+      "nota-simple": "Nota Simple",
+      "tourist-license": "Touristenlizenz",
+      "concierge-service": "Concierge-Dienste",
+      "mortgage": "Hypothek",
+      "student-visa": "Studentenvisum",
+      "digital-nomand": "Digitales Nomand",
+      "learn-more": "Erfahren Sie mehr"
+    },
+
+    "other": {
+      "other-projects": "Andere Projekte",
+      "map": "Karte"
+    }
+  }
+}

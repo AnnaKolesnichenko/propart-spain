@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://propart-spain.vercel.app
+
+# Sitemaps
+Sitemap: https://propart-spain.vercel.app/sitemap.xml
