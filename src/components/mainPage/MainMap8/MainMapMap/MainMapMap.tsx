@@ -1,23 +1,18 @@
-"use client";
-import React, { useEffect, useRef } from "react";
-import Mapboxgl from "mapbox-gl";
-import "mapbox-gl/dist/mapbox-gl.css";
-import jsonData from "@/constants/allAreas.json";
-import { createGeoJSON } from "@/utils/createGeoJSON";
-import {
-  clastersLayer,
-  clastersCountLayer,
-  unclastersLayer,
-} from "@/constants/map";
-import "./MainMapMap.scss";
+'use client';
+import React, { useEffect, useRef } from 'react';
+import Mapboxgl from 'mapbox-gl';
+import 'mapbox-gl/dist/mapbox-gl.css';
+import jsonData from '@/constants/allAreas.json';
+import { createGeoJSON } from '@/utils/createGeoJSON';
+import { clastersLayer, clastersCountLayer, unclastersLayer } from '@/constants/map';
+import './MainMapMap.scss';
 
-const token =
-  "pk.eyJ1IjoiYW5uYS1rb2xlc25pY2hlbmtvIiwiYSI6ImNseG42eWxtcTAwbGkyaXNmcmFtbzg4ZnMifQ.D30wch4DV3pL-kExhlFiZg";
+const token = 'pk.eyJ1IjoiYW5uYS1rb2xlc25pY2hlbmtvIiwiYSI6ImNseG42eWxtcTAwbGkyaXNmcmFtbzg4ZnMifQ.D30wch4DV3pL-kExhlFiZg'
 
-if (token) {
-  Mapboxgl.accessToken = token;
+if (process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN) {
+  Mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
 } else {
-  console.error("Mapbox access token is not provided or invalid.");
+  console.error('Mapbox access token is not provided or invalid.');
 }
 interface MainMapMapProps {
   mapCoordinates: [number, number];
@@ -33,7 +28,7 @@ const MainMapMap = ({ mapCoordinates, mapZoom, setLoad }: MainMapMapProps) => {
     if (!map.current) {
       map.current = new Mapboxgl.Map({
         container: mapContainer.current!,
-        style: "mapbox://styles/abiespana/cltantp6a00ut01pj4v9h0srk",
+        style: 'mapbox://styles/abiespana/cltantp6a00ut01pj4v9h0srk',
         center: mapCoordinates, //[-5.146848, 36.426807],
         zoom: mapZoom, //11,
         minZoom: 5, // встановлює мінімальний zoom
@@ -42,9 +37,9 @@ const MainMapMap = ({ mapCoordinates, mapZoom, setLoad }: MainMapMapProps) => {
 
       if (setLoad) setLoad(false);
 
-      map.current.on("load", () => {
-        map.current?.addSource("projects", {
-          type: "geojson",
+      map.current.on('load', () => {
+        map.current?.addSource('projects', {
+          type: 'geojson',
           data: createGeoJSON(jsonData),
           cluster: true,
           clusterRadius: 80,
@@ -55,10 +50,10 @@ const MainMapMap = ({ mapCoordinates, mapZoom, setLoad }: MainMapMapProps) => {
         map.current?.addLayer(unclastersLayer);
       });
       //відслідковування кліку по маркеру
-      map.current.on("click", (event: any) => {
+      map.current.on('click', (event: any) => {
         const features = map.current?.queryRenderedFeatures(event.point, {
           //popap з'являється по кліку тільки по макерах
-          layers: ["unclustered-point"],
+          layers: ['unclustered-point'],
         });
         if (!features || !features.length) {
           return;
@@ -66,7 +61,7 @@ const MainMapMap = ({ mapCoordinates, mapZoom, setLoad }: MainMapMapProps) => {
         const feature = features[0];
         // console.log(feature);
         //Перевірка чи доступні властивості
-        if (feature.properties && feature.geometry.type === "Point") {
+        if (feature.properties && feature.geometry.type === 'Point') {
           const popup = new Mapboxgl.Popup({ offset: [0, -15] })
             .setLngLat(feature.geometry.coordinates as [number, number])
             .setHTML(
@@ -74,9 +69,7 @@ const MainMapMap = ({ mapCoordinates, mapZoom, setLoad }: MainMapMapProps) => {
             <a class='link' href="/project/${feature.properties.id}">
               <div class='image'>
                 <img src=${
-                  feature.properties.photo
-                    ? feature.properties.photo
-                    : "/icons/icons-villa.png"
+                  feature.properties.photo ? feature.properties.photo : '/icons/icons-villa.png'
                 } alt="React Image" />
               </div>
               <div class='info'>
@@ -90,9 +83,9 @@ const MainMapMap = ({ mapCoordinates, mapZoom, setLoad }: MainMapMapProps) => {
       });
 
       // Додавання слухача для клацання по кластеру
-      map.current.on("click", (event: any) => {
+      map.current.on('click', (event: any) => {
         const features = map.current?.queryRenderedFeatures(event.point, {
-          layers: ["clusters"],
+          layers: ['clusters'],
         });
         if (!features || !features.length) {
           return;
@@ -105,9 +98,7 @@ const MainMapMap = ({ mapCoordinates, mapZoom, setLoad }: MainMapMapProps) => {
         if (!clusterId) {
           return;
         }
-        const source = map.current?.getSource(
-          "projects"
-        ) as Mapboxgl.GeoJSONSource;
+        const source = map.current?.getSource('projects') as Mapboxgl.GeoJSONSource;
         source.getClusterExpansionZoom(clusterId, (err, zoom) => {
           if (err) return;
           const coordinates = (feature.geometry as GeoJSON.Point).coordinates;
@@ -119,17 +110,17 @@ const MainMapMap = ({ mapCoordinates, mapZoom, setLoad }: MainMapMapProps) => {
       });
 
       // Зміна курсора при наведенні на кластер та маркер
-      map.current.on("mouseenter", ["clusters", "unclustered-point"], () => {
-        map.current!.getCanvas().style.cursor = "pointer";
+      map.current.on('mouseenter', ['clusters', 'unclustered-point'], () => {
+        map.current!.getCanvas().style.cursor = 'pointer';
       });
-      map.current.on("mouseleave", ["clusters", "unclustered-point"], () => {
-        map.current!.getCanvas().style.cursor = "";
+      map.current.on('mouseleave', ['clusters', 'unclustered-point'], () => {
+        map.current!.getCanvas().style.cursor = '';
       });
       //панель управління
-      map.current.addControl(new Mapboxgl.NavigationControl(), "top-right");
+      map.current.addControl(new Mapboxgl.NavigationControl(), 'top-right');
     }
     //взаємодія при скролі колесом мишки
-    map.current.on("wheel", (event) => {
+    map.current.on('wheel', event => {
       if (event.originalEvent.ctrlKey) {
         return;
       }
